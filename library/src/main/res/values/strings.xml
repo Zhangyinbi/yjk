@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Library</string>
+
+    <string name="china_y">中国移动</string>
+    <string name="china_l">中国联通</string>
+    <string name="china_d">中国电信</string>
+
+    <!-- 下拉刷新、上拉加载 -->
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">加载中</string>
+    <string name="p2refresh_doing_end_refresh">加载中&#8230;</string>
+    <string name="p2refresh_refresh_lasttime">最近更新&#160;&#058;&#160;</string>
+
+    <string name="str_explanation">交底</string>
+    <string name="str_shuidian">水电</string>
+    <string name="str_nimu">泥木</string>
+    <string name="str_jungong">竣工</string>
+    <string name="str_zengbu">增补</string>
+</resources>
