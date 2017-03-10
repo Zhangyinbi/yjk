@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_dcdbdb"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_fm_material_detail_header_assist"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_fm_material_detail_header_assist_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_build_deatil_header_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fm_material_detail_header_assist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部类型"
+                android:textColor="@color/gray_959595"
+                android:textSize="@dimen/textsize_36px" />
+
+            <ImageView
+                android:id="@+id/imgv_fm_material_detail_header_assist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_build_greyarrowdown" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fm_material_detail_header_assist_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_build_deatil_header_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fm_material_detail_header_assist_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部时间"
+                android:textColor="@color/gray_959595"
+                android:textSize="@dimen/textsize_36px" />
+
+            <ImageView
+                android:id="@+id/imgv_fm_material_detail_header_assist_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_build_greyarrowdown" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_fm_material_detail_header_main_type"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_fm_material_detail_header_main_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_36px" />
+
+        <ImageView
+            android:id="@+id/imgv_fm_material_detail_header_main_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_build_greyarrowdown" />
+    </LinearLayout>
+
+    <View style="@style/view_grayd1d1d1_divider" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_fm_material_detail_header_assist_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_f4f4f4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_fm_material_detail_header_assist_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x20"
+            android:paddingTop="@dimen/x20"
+            android:text="今日下单总额：0元" />
+
+        <TextView
+            android:id="@+id/tv_fm_material_detail_header_assist_ok_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x20"
+            android:paddingTop="@dimen/x20"
+            android:text="今日确认下单总额：0元" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lv_fm_material_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        tools:listitem="@layout/all_orders_item"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_listitem_pay_record_row0"
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="一期款"
+            android:textSize="@dimen/textsize_32px" />
+
+        <TextView
+            android:id="@+id/tv_listitem_pay_record_row1"
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="30%"
+            android:textSize="@dimen/textsize_32px" />
+
+        <TextView
+            android:id="@+id/tv_listitem_pay_record_row2"
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="9,000"
+            android:textSize="@dimen/textsize_32px" />
+
+        <TextView
+            android:id="@+id/tv_listitem_pay_record_row3"
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="已付"
+            android:textSize="@dimen/textsize_32px" />
+    </LinearLayout>
+
+    <View
+        style="@style/view_grayd1d1d1_divider"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24" />
+
+</LinearLayout>

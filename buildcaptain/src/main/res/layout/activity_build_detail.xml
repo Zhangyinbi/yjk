@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_f1f1f1">
+
+
+    <FrameLayout
+        android:id="@+id/fl_build_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ></FrameLayout>
+
+
+    <View
+        android:id="@+id/view_build_detail_divider_left"
+        style="@style/view_grayd1d1d1_divider"
+        android:layout_height="@dimen/y2"
+         />
+
+
+    <LinearLayout
+        android:id="@+id/ll_build_detail_tab_left"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_build_detail_tab_construction_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgv_build_detail_tab_construction_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_build_detail_tab_construc_scheduling" />
+
+            <TextView
+                android:id="@+id/tv_build_detail_tab_construction_progress"
+                style="@style/Main_Tab_Tv"
+                android:layout_marginTop="@dimen/y5"
+                android:text="施工排期" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_build_detail_tab_material"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgv_build_detail_tab_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_build_detail_tab_material" />
+
+            <TextView
+                android:id="@+id/tv_build_detail_tab_material"
+                style="@style/Main_Tab_Tv"
+                android:layout_marginTop="@dimen/y5"
+                android:text="材料明细" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_build_detail_tab_record"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgv_build_detail_tab_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_build_detail_tab_deduct_record" />
+
+            <TextView
+                android:id="@+id/tv_build_detail_tab_record"
+                style="@style/Main_Tab_Tv"
+                android:layout_marginTop="@dimen/y5"
+                android:text="收款查询" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/x20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_Gray959595_Szie32"
+                android:text="业主名称："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_deduct_detail_owner_name"
+                style="@style/tv_Black000000_Szie32"
+                android:text=""
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_Gray959595_Szie32"
+                android:text="工地地址："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_deduct_detail_build_address"
+                style="@style/tv_Black000000_Szie32"
+                android:text=""
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_Gray959595_Szie32"
+                android:text="问题描述："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_deduct_detail_question_desc"
+                style="@style/tv_Black000000_Szie32"
+                android:text=""
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_Gray959595_Szie32"
+                android:text="材料描述："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_deduct_detail_material_desc"
+                style="@style/tv_Black000000_Szie32"
+                android:text=""
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_Gray959595_Szie32"
+                android:text="罚款阶段："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_deduct_detail_stage"
+                style="@style/tv_Black000000_Szie32"
+                android:text=""
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_Gray959595_Szie32"
+                android:text="罚款原因："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_deduct_detail_reason"
+                style="@style/tv_Black000000_Szie32"
+                android:text=""
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_Gray959595_Szie32"
+                android:text="罚款金额："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_deduct_detail_money"
+                style="@style/tv_Black000000_Szie32"
+                android:text=""
+                android:textColor="@color/text_f39700"
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <TextView
+            style="@style/tv_Gray959595_Szie32"
+            android:layout_marginBottom="@dimen/y20"
+            android:text="现场照片"
+            android:textSize="@dimen/textsize_36px" />
+
+        <com.hbw.library.view.MyGridView
+            android:id="@+id/gv_deduct_detail_scene_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="@dimen/y20"
+            tools:listitem="@layout/listitem_img"></com.hbw.library.view.MyGridView>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <TextView
+            style="@style/tv_Gray959595_Szie32"
+            android:layout_marginBottom="@dimen/y20"
+            android:text="业主沟通"
+            android:textSize="@dimen/textsize_36px" />
+
+        <com.hbw.library.view.MyGridView
+            android:id="@+id/gv_deduct_detail_owner_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="@dimen/y20"
+            tools:listitem="@layout/listitem_img"></com.hbw.library.view.MyGridView>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20"
+            android:background="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_hint_dialog">
+
+    <LinearLayout
+        android:id="@+id/dialog_l1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/order_details_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/order_details_cancel"
+            android:textColor="@color/text_959595"
+            android:textSize="@dimen/textsize_36px" />
+
+        <TextView
+            android:id="@+id/order_details_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/order_details_sofort"
+            android:textColor="@color/text_000000"
+            android:textSize="@dimen/textsize_36px" />
+
+        <TextView
+            android:id="@+id/order_details_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/order_details_confirm"
+            android:textColor="@color/text_e86270"
+            android:textSize="@dimen/textsize_36px" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_l1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <DatePicker
+                    android:id="@+id/order_details_DatePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:calendarViewShown="false"></DatePicker>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TimePicker
+                    android:id="@+id/order_details_TimePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"></TimePicker>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

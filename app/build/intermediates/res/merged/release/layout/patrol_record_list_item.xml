@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_project_info_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:text="11月10号"
+            android:textColor="#434343"
+            android:textSize="@dimen/textsize_18" />
+
+        <TextView
+            android:id="@+id/tv_project_info_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:text="施工人员交工"
+            android:textColor="#434343"
+            android:textSize="@dimen/textsize_18"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_bg_list_white_gray"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_project_info_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimen_5"
+            android:paddingLeft="25dp"
+            android:paddingRight="@dimen/dimen_20"
+            android:paddingTop="@dimen/dimen_5"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="#3f3f3f"
+            android:textSize="@dimen/textsize_18" />
+
+        <RelativeLayout
+            android:id="@+id/project_info_list_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_project_info_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/dimen_5"
+                android:paddingLeft="25dp"
+                android:paddingRight="@dimen/dimen_20"
+                android:paddingTop="@dimen/dimen_5"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="#3f3f3f"
+                android:textSize="@dimen/textsize_18" />
+
+            <TextView
+                android:id="@+id/tv_project_info_verify_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/dimen_5"
+                android:paddingLeft="25dp"
+                android:paddingRight="@dimen/dimen_20"
+                android:paddingTop="@dimen/dimen_5"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="#3f3f3f"
+                android:textSize="@dimen/textsize_18" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/img_project_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/img_project_info1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/img_90"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_project_info2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/img_90"
+                android:layout_marginLeft="23dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_project_info3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/img_90"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

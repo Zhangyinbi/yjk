@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--增项金额-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_material_detail_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="主材明细"
+            android:background="@color/red_e76270"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textsize_32px" />
+
+        <TextView
+            android:id="@+id/tv_project_add_matter_detail_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="工程增项明细"
+            android:textColor="@color/text_959595"
+            android:background="@color/text_d3d3d3"
+            android:textSize="@dimen/textsize_32px" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_pay_record_add_money_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_shape"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="40dp"
+    android:paddingLeft="40dp" >
+
+    <TextView
+        android:id="@+id/activity_tel_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+		android:paddingTop="20dp"
+		android:paddingBottom="20dp"
+        android:text="拨打电话400-920-1616"
+        android:textSize="20sp"
+        android:textColor="#434343" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EFF1EC" />
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="15sp"
+            android:onClick="clickButton"
+            android:clickable="true"
+            android:textColor="#434343" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="#EFF1EC" />
+
+        <TextView
+            android:id="@+id/textView_dialog_sure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确定"
+            android:textSize="15sp"
+            android:textColor="#434343"
+            android:onClick="clickButton"
+            android:clickable="true" />
+    </LinearLayout> 
+</LinearLayout>

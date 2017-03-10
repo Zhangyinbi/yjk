@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Owner_grey_f0f0f0"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/ed_mobile1"
+        android:layout_width="match_parent"
+        android:hint="请输入关联手机号1"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:textSize="15sp"
+        android:maxLength="11"
+        android:inputType="number"
+        android:textColorHint="@color/Owner_grey_d2d2d2"
+        android:textColor="@color/text_959595"
+        android:background="@color/white"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/ed_mobile2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:hint="请输入关联手机号2"
+        android:inputType="number"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:textSize="15sp"
+        android:maxLength="11"
+        android:textColorHint="@color/Owner_grey_d2d2d2"
+        android:textColor="@color/text_959595"
+        android:background="@color/white"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tips_of_cognate_mobile"
+            android:textColor="@color/text_959595"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yangbang.miowner">
+
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RIDE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.OwnerLoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 监理报告 -->
+        <activity
+            android:name=".activity.SupervisionReportActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 注册&忘记密码 -->
+        <activity
+            android:name=".activity.OwnerRegisterActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 设置密码 -->
+        <activity
+            android:name=".activity.OwnerRegisterSetPasswordActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 工程排期&欢迎界面 -->
+        <activity
+            android:name=".activity.OwnerProjectSchedulActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 付款记录 -->
+        <activity
+            android:name=".activity.PayRecordActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 关于我们 -->
+        <activity
+            android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 监控视频播放 -->
+        <activity
+            android:name=".activity.DevicePlayActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" />
+
+        <!-- 忘记密码 验证手机号码 -->
+        <activity
+            android:name=".activity.OwnerForgetPasswordActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 忘记密码 获取验证码 -->
+        <activity
+            android:name=".activity.OwnerForgetPasswordValideActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 忘记密码 设置密码 -->
+        <activity
+            android:name=".activity.OwnerForgetPasswordSetPasswordActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 用户设置 -->
+        <activity
+            android:name=".activity.OwnerSettingsActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 昵称设置 -->
+        <activity
+            android:name=".activity.ModifyNickNameActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 关联手机号 -->
+        <activity
+            android:name=".activity.OwnerRelevanceMobileActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 大图预览 -->
+        <activity
+            android:name="com.hbw.library.pictureview.ImageGalleryActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 修改密码 -->
+        <activity
+            android:name=".activity.OwnerChangePasswordActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 添加关联手机号 -->
+        <activity
+            android:name=".activity.OwnerRelevanceAddMobileActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 付款记录_合同金额 -->
+        <activity
+            android:name=".activity.PayRecordPactActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 付款记录_增项金额 -->
+        <activity
+            android:name=".activity.PayRecordAddMoneyActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 付款记录_退款金额 -->
+        <activity
+            android:name=".activity.RefundMoneyActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我_现场监管 -->
+        <activity
+            android:name=".activity.SiteMonitoringActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 工地管理_项目经理巡查记录 -->
+        <activity
+            android:name=".activity.PatrolRecordActivity"
+            android:screenOrientation="portrait" />
+        >
+
+        <!-- 工地管理_项目经理巡查记录详情 -->
+        <activity
+            android:name=".activity.PatrolRecordDetailsActivity"
+            android:screenOrientation="portrait" />
+        >
+
+        <!--工地管理-施工队长日志-->
+        <activity android:name=".activity.BuildRecordActivity"
+                  android:screenOrientation="portrait"/>
+
+        <!-- 问题评价 -->
+        <activity
+            android:name=".activity.QuestionCommentActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 添加问题与评价 -->
+        <activity
+            android:name=".activity.AddQuestionOrCommentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 问题详情 -->
+        <activity
+            android:name=".activity.QuestionDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的订单 -->
+        <activity
+            android:name=".activity.MyOrderActivity"
+            android:screenOrientation="portrait" />
+        <!-- 订单详情 -->
+        <activity
+            android:name=".activity.OrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 订单评价 -->
+        <activity
+            android:name=".activity.OrderCommentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <!-- 发布成功 -->
+        <activity
+            android:name=".activity.PublishSuccessActivity"
+            android:screenOrientation="portrait" />
+        <!-- 图片多选 -->
+        <activity
+            android:name="com.zhy.imageloader.PhotoMultiSelectActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

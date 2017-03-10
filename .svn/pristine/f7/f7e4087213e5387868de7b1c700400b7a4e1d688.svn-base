@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y640"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/publish" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/x30">
+
+        <TextView
+            android:id="@+id/tv_publish_success_continue"
+            style="@style/tv_gray7d7d7d_Size36_round_style"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/x60"
+            android:layout_marginRight="@dimen/x26"
+            android:layout_weight="1"
+            android:background="@drawable/shape_text_red_stroke"
+            android:text="继续评价"
+            android:textColor="@color/red_e76170" />
+
+        <TextView
+            android:id="@+id/tv_publish_success_check"
+            style="@style/tv_gray7d7d7d_Size36_round_style"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/x26"
+            android:layout_marginRight="@dimen/x60"
+            android:layout_weight="1"
+            android:background="@drawable/shape_red_solid_stroke"
+            android:text="查看评价"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

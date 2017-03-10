@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f0f0f0"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_nav"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/construction_progress_plan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="计划排期"
+            android:textSize="@dimen/textsize_36px"/>
+
+        <TextView
+            android:id="@+id/construction_progress_actual"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="实际进度"
+            android:textSize="@dimen/textsize_36px"/>
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/construction_progress_expandable_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_yanshou_status"
+        android:divider="@null"
+        android:layout_below="@+id/ll_nav"/>
+
+    <LinearLayout
+        android:id="@+id/ll_yanshou_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_above="@+id/ll_yanshou_status"
+            android:background="@color/background_f0f0f0"/>
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_shuidian_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/tv_nimu_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/tv_youqi_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/tv_jungong_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_yan_shou_application"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shape_red_solid_stroke"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

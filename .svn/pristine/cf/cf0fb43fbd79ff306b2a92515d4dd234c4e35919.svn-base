@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_style_ffffff"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/x10">
+
+        <!-- <ImageView
+             android:id="@+id/img"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/imgLoadingFg"
+             android:layout_marginRight="@dimen/x15"
+             android:src="@drawable/refresh_logo_dot" />-->
+
+        <com.hbw.library.view.CustomImageView
+            android:id="@+id/imgLoadingFg"
+            android:layout_width="@dimen/x90"
+            android:layout_height="@dimen/y90"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/x12" />
+
+        <!-- 红色red 灰色gray_text -->
+
+    </RelativeLayout>
+
+</LinearLayout>

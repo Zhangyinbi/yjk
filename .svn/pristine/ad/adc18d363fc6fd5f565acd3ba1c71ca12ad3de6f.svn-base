@@ -1,0 +1,131 @@
+<resources>
+
+    <string name="app_name">项目经理</string>
+    <string name="action_settings">Settings</string>
+    <!-- common keyword -->
+    <string name="confirm">确定</string>
+    <string name="cancle">取消</string>
+    <!-- common keyword -->
+    <string-array name="login_type">
+        <item> 业主 </item>
+        <item> 监理人员 </item>
+        <item> 施工人员 </item>
+    </string-array>
+    <string-array name="title">
+        <item>全部工地</item>
+        <item>今日任务</item>
+        <!--
+             <item>全部</item>
+        <item>最新监理</item>
+        <item>最新完工</item>
+
+        -->
+    </string-array>
+    <string-array name="fitmenttitle">
+        <item>工程进度</item>
+        <item>材料进度</item>
+        <!--
+             <item>工程量</item>
+        <item>时间进度</item>
+
+        -->
+    </string-array>
+    <string-array name="user_title">
+        <item>工程进度</item>
+        <item>材料进度</item>
+        <item>付款记录</item>
+    </string-array>
+
+    <string name="text_ack_msg">已读</string>
+    <string name="text_delivered_msg">已发送</string>
+    <string name="msg_leave">留言</string>
+    <string name="msg_send">发送</string>
+    <string name="project_sum">工程量</string>
+    <string name="time_progress">时间进度</string>
+    <string name="text_contact">&#160;&#160;&#160;&#160;联系人</string>
+    <string name="text_contact_way">联系方式</string>
+    <string name="text_remark">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;备注</string>
+    <string name="text_progress">进度</string>
+    <string name="text_plan_time">计划时间</string>
+    <string name="text_actual_time">实际时间</string>
+    <string name="text_yuyue_measure">预约测量</string>
+    <string name="text_measure">测量</string>
+    <string name="text_orders">下单</string>
+    <string name="text_songhuo_install">送货安装</string>
+    <string name="text_add">添加</string>
+    <string name="text_comment">评价</string>
+    <string name="text_chat">聊天</string>
+    <string name="text_add_remark">添加备注</string>
+    <string name="text_show_remark">显示备注</string>
+    <string name="text_show_all">显示全部</string>
+    <string name="text_jiaodi">交底</string>
+    <string name="text_shuidian">水电</string>
+    <string name="text_nimo">泥沫</string>
+    <string name="text_youqi">油漆</string>
+    <string name="text_jungong">竣工</string>
+
+    <!-- 评价String -->
+    <string name="assess">评价</string>
+    <string name="assess_str_1">服务态度</string>
+    <string name="assess_str_2">服务质量</string>
+    <string name="assess_str_3">问题解决速度</string>
+    <string name="assess_score_def">0.0分</string>
+    <string name="assess_score_mex">综合得分</string>
+    <string name="assess_hint">欢迎提出您宝贵的意见</string>
+    <string name="assess_hint_none">暂无评价</string>
+    <string name="assess_detail">评价详情</string>
+
+    <!-- 登陆String -->
+    <string name="user">业主</string>
+    <string name="project_manager">项目经理</string>
+
+    <!--付款记录-->
+    <string name="str_pra_pay_money">实付金额 : </string>
+    <string name="str_pact_money">合同金额 : </string>
+    <string name="str_add_money">增项金额 : </string>
+    <string name="str_pact_deadline_money">合同期款</string>
+    <string name="str_main_material_detail">主材明细</string>
+    <string name="str_add_detail">增项明细</string>
+    <string name="str_pay_project">款项</string>
+    <string name="str_scale">比例</string>
+    <string name="str_status">状态</string>
+    <string name="str_main_material_name">主材名称</string>
+    <string name="str_brand_norms">品牌规格</string>
+    <string name="str_count">数量</string>
+    <string name="str_total_money">总价</string>
+
+    <!--增加工程项-->
+    <string name="order_details_delivery_time">送货时间:&#160;&#160;&#160;&#160;</string>
+    <string name="order_details_brand">品牌厂家:&#160;&#160;&#160;&#160;</string>
+    <string name="order_details_type">材料类型:&#160;&#160;&#160;&#160;</string>
+    <string name="order_details_moder">规格型号:&#160;&#160;&#160;&#160;</string>
+    <string name="order_details_unit">单&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;位:&#160;&#160;&#160;&#160;</string>
+    <string name="order_details_price">单&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;价:&#160;&#160;&#160;&#160;</string>
+    <string name="order_details_number">数&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;量:&#160;&#160;&#160;&#160;</string>
+    <string name="order_details_remark">备&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;注:&#160;&#160;&#160;&#160;</string>
+    <string name="order_details_total_money">下单总金额:&#160;&#160;&#160;&#160;</string>
+    <string name="order_count_price">总&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;价：</string>
+    <string name="order_details_cancel">取消</string>
+    <string name="order_details_confirm">确定</string>
+    <string name="order_details_sofort">送货时间</string>
+    <string name="order_search">请输入搜素的文字</string>
+    <string name="order_construction_stage">使用阶段:&#160;&#160;&#160;&#160;</string>
+
+    <string name="str_all">全部</string>
+    <string name="str_snhs">水泥黄沙</string>
+
+    <string name="str_pre_time">预计到货时间：</string>
+    <string name="str_pra_time">实际到货时间：</string>
+    <string name="str_confirm_recive">确认收货</string>
+    <string name="str_returns">退货</string>
+    <string name="payment_actually_paid_money">期款实付金额 : </string>
+    <string name="add_prepay_actually_paid_money">增加项预付金额 : </string>
+    <string name="refund_actually_paid_money">退款 : </string>
+    <string name="refund_money">退款 : </string>
+
+    <string name="yanshoudan">验收单</string>
+    <string name="fanganxiangchangzhengming">方案现场预算证明</string>
+    <string name="disanfangquerendan">排期第三方确认单</string>
+    <string name="yan_qi_que_ren_dan">延期确认单</string>
+
+</resources>

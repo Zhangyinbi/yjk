@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Owner_grey_f0f0f0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/owner_shape_register"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/add_mobile"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y100"
+            android:layout_margin="@dimen/x2"
+            android:layout_weight="1"
+            android:background="@color/Owner_white_ffffff"
+            android:gravity="center_vertical"
+            android:hint="请输入关联手机号"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColor="@color/Owner_black_000000"
+            android:textColorHint="@color/Owner_grey_d2d2d2"
+            android:textSize="@dimen/textsize_32px" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginTop="@dimen/y30"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*提示:此处关联手机号,在注册后可查看同一工地信息"
+            android:textColor="@color/Owner_grey_d2d2d2"
+            android:textSize="@dimen/textsize_28px" />
+
+    </LinearLayout>
+
+</LinearLayout>

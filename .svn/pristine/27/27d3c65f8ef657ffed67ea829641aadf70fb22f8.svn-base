@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x600"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_pop_orders_filter_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_all_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/x25">
+
+        <TextView
+            style="@style/tv_Black000000_Szie32"
+            android:paddingTop="@dimen/y18"
+            android:text="全部订单"
+            android:textSize="@dimen/textsize_36px" />
+
+        <TextView
+            android:id="@+id/tv_all_orders_count"
+            style="@style/tv_Black000000_Szie32"
+            android:paddingTop="@dimen/y18"
+            android:text="（50）"
+            android:textColor="@color/red_a70d20"
+            android:textSize="@dimen/textsize_36px" />
+
+    </LinearLayout>
+
+    <View style="@style/view_grayd1d1d1_divider" />
+
+    <LinearLayout
+        android:id="@+id/linear_one_month_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/x25">
+
+        <TextView
+            style="@style/tv_Black000000_Szie32"
+            android:text="一个月内订单"
+            android:textSize="@dimen/textsize_36px" />
+
+        <TextView
+            android:id="@+id/tv_all_one_month_count"
+            style="@style/tv_Black000000_Szie32"
+            android:text="（20）"
+            android:textColor="@color/red_a70d20"
+            android:textSize="@dimen/textsize_36px" />
+
+    </LinearLayout>
+
+    <View style="@style/view_grayd1d1d1_divider" />
+
+    <LinearLayout
+        android:id="@+id/linear_three_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/x25">
+
+        <TextView
+            style="@style/tv_Black000000_Szie32"
+            android:text="三个月内订单"
+            android:textSize="@dimen/textsize_36px" />
+
+        <TextView
+            android:id="@+id/tv_three_orders_count"
+            style="@style/tv_Black000000_Szie32"
+            android:text="（30）"
+            android:textColor="@color/red_a70d20"
+            android:textSize="@dimen/textsize_36px" />
+
+    </LinearLayout>
+
+</LinearLayout>

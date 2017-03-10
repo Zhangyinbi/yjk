@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1">
+
+    <RelativeLayout
+        android:id="@+id/rl_listitem_question_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y40"
+        android:background="@color/white"
+        android:padding="@dimen/x20">
+
+        <LinearLayout
+            android:id="@+id/ll_listitem_question_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_listitem_question_department"
+                style="@style/tv_Gray959595_Szie32"
+                android:text="相关部门：施工队长"
+                android:textSize="@dimen/textsize_28px" />
+
+            <TextView
+                style="@style/tv_Gray959595_Szie32"
+                android:layout_marginLeft="@dimen/x30"
+                android:text="负责人："
+                android:textSize="@dimen/textsize_28px" />
+
+            <TextView
+                android:id="@+id/tv_listitem_question_duty"
+                style="@style/tv_Gray959595_Szie32"
+                android:text="李狗蛋"
+                android:textColor="@color/red_ff0000"
+                android:textSize="@dimen/textsize_28px" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_listitem_question_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_listitem_question_head"
+            android:layout_marginTop="@dimen/y15"
+            android:maxLines="2"
+            android:text="去工地验收"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_30px" />
+
+        <LinearLayout
+            android:id="@+id/ll_listitem_imgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_listitem_question_desc"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/img_project_info1"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_project_info2"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="23dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_project_info3"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_listitem_question_divider"
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_below="@+id/ll_listitem_imgs" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_listitem_question_divider"
+            android:layout_marginTop="@dimen/y15"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_listitem_question_upload_date"
+                style="@style/tv_Gray959595_Szie32"
+                android:layout_weight="1"
+                android:text="上传时间：2015-01-18 14:32:23" />
+
+            <TextView
+                android:id="@+id/tv_listitem_question_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x60"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/shape_text_red_stroke"
+                android:gravity="center"
+                android:minWidth="@dimen/x160"
+                android:text="撤消问题"
+                android:textColor="@color/red_e76170" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_listitem_question_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/rl_listitem_question_frame"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="-7dp"
+        android:src="@mipmap/orange" />
+
+
+</RelativeLayout>

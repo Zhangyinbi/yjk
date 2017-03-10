@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="问题描述"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <EditText
+                    android:id="@+id/patrol_record_add_content"
+                    style="@style/my_edittext_style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="start"
+                    android:hint="请描述相关问题...."
+                    android:maxLength="255"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/textsize_14" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:src="@drawable/dashed" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="材料描述"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <EditText
+                    android:id="@+id/patrol_record_add_material_info"
+                    style="@style/my_edittext_style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="start"
+                    android:hint="请描述相关材料...."
+                    android:maxLength="255"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/textsize_14" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:src="@drawable/dashed" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="是否罚款"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/myfine"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+                            android:id="@+id/fine"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="罚款"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/textsize_14" />
+
+                        <RadioButton
+                            android:checked="true"
+                            android:id="@+id/nofine"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/x20"
+                            android:text="不罚款"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/textsize_14" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/my_spinner_project_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="施工阶段"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <Spinner
+
+                    android:layout_gravity="left"
+                    android:id="@+id/spinner_project_cost"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/patrol_record_add_fine_cause_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="罚款原因"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <Spinner
+                    android:layout_gravity="left"
+                    android:id="@+id/patrol_record_add_fine_cause"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/isShowfinemoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="罚款金额"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <EditText
+                    android:id="@+id/finemoney"
+                    style="@style/my_edittext_style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="start"
+                    android:hint="请输入罚款金额...."
+                    android:inputType="number"
+                    android:maxLength="255"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/textsize_14" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:src="@drawable/dashed" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="现场照片"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
+
+                    <com.youjuke.miprojectmanager.view.MyGridView
+                        android:id="@+id/patrol_record_add_ONE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:numColumns="3"></com.youjuke.miprojectmanager.view.MyGridView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:src="@drawable/dashed" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="业主沟通"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+                    <com.youjuke.miprojectmanager.view.MyGridView
+                        android:id="@+id/patrol_record_add_TWO"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="@color/black"
+                        android:listSelector="@color/black"
+                        android:numColumns="3"></com.youjuke.miprojectmanager.view.MyGridView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:src="@drawable/dashed" />
+
+            <LinearLayout
+                android:id="@+id/patrol_record_add_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

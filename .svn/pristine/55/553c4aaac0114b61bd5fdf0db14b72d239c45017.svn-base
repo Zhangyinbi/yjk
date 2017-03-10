@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_btn_press_41a725">#41a725</color>
+    <color name="white_style_ffffff">#ffffff</color>
+    <color name="green_style_51c12d">#51c12d</color>
+    <color name="green_style_83c46d">#83c46d</color>
+    <color name="green_32b16c">#32b16c</color>
+    <color name="green_32b16e">#32b16e</color>
+    <color name="black_style_434343">#434343</color>
+    <color name="divider_b2b2b2">#b2b2b2</color>
+    <color name="gray_style3_bcbcbc">#bcbcbc</color>
+    <color name="gray_959595">#959595</color>
+    <color name="gray_f1f1f1">#f1f1f1</color>
+    <color name="gray_d1d1d1">#d1d1d1</color>
+    <color name="gray_7d7d7d">#7d7d7d</color>
+    <color name="gray_d2d2d2">#d2d2d2</color>
+    <color name="gray_dcdbdb">#dcdbdb</color>
+    <color name="gray_f4f4f4">#f4f4f4</color>
+    <color name="gray_f8f8f8">#f8f8f8</color>
+    <color name="red_c30d22">#c30d22</color>
+    <color name="red_af0c20">#af0c20</color>
+    <color name="red_a70d20">#a70d20</color>
+    <color name="red_e70719">#e70719</color>
+    <color name="red_ff0000">#ff0000</color>
+    <color name="red_f65323">#f65323</color>
+    <color name="red_e76170">#e76170</color>
+    <color name="gray">#808080</color>
+    <color name="purple_8a2be2">#8a2be2</color>
+    <color name="cyan_7fffd4">#7fffd4</color>
+
+    <color name="project_title_bg">#DCDCDC</color>
+    <color name="gray_light_bg">#f3f3f3</color>
+    <color name="black">#000000</color>
+    <color name="nomal_text_color">#5D5C5C</color>
+    <color name="blue">#0068b7</color>
+    <color name="bg_night">#000022</color>
+    <color name="register_text_color">#5D5C5C</color>
+    <color name="red">#CD0000</color>
+    <color name="red_dark">#B10C21</color>
+    <color name="green">#66CD00</color>
+    <color name="text">#4B4B4B</color>
+    <color name="bg">#F7F1EE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#FFC1C1</color>
+    <color name="purple">#CD00CD</color>
+    <color name="yello">#EEEE00</color>
+    <color name="yello2">#f39700</color>
+    <color name="orange">#FFA500</color>
+    <color name="orange_f19149">#f19149</color>
+    <color name="orange_ffbb55">#ffbb55</color>
+    <color name="deeppink">#EE1289</color>
+    <color name="brown">#8B2500</color>
+    <color name="aboutwisdom">#009966</color>
+    <color name="grey">#969696</color>
+    <color name="login_bg">#c30d22</color>
+    <color name="title_color">#333333</color>
+    <color name="nomal_color">#cccccc</color>
+    <color name="bg_black">#FF000000</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="title_choice">#c30d22</color>
+    <color name="title_nochoice">#626262</color>
+    <color name="name">#959595</color>
+    <color name="complete">#6fd34f</color>
+    <color name="complete2">#22ac38</color>
+    <color name="fourto">#434343</color>
+    <color name="gray_tint">#cccccc</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="tab_bg_color">#eeeeeeee</color>
+    <color name="tab_bg_text_color">#eeeeee</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#88000000</color>
+    <color name="gotye_bg_gray">#ededed</color>
+    <color name="room_pressed">#2fbdb8</color>
+    <color name="gotye_text_white">#ffffff</color>
+    <color name="gotye_text_dark_gray">#414141</color>
+    <color name="gotye_text_send_pressed">#7690b0</color>
+    <color name="x_red">#795548</color>
+    <color name="inform_grey_text">#626262</color>
+    <color name="inform_red">#c30d22</color>
+    <color name="inform_grey_bg">#dcdcdc</color>
+    <color name="inform_grey_time">#a0a</color>
+    <color name="default_img_color">#c9c9c9</color>
+
+    <item name="gray_light" type="color">#9D9D9D</item>
+    <item name="gray_dark" type="color">#5A5A5A</item>
+    <item name="gray_div" type="color">#E5E5E5</item>
+
+    <color name="red_e76270">#e76270</color>
+    <color name="grey_959595">#959595</color>
+    <color name="grey_dbdbdb">#dbdbdb</color>
+    <color name="f85063">#f85063</color>
+    <color name="fe0100">#fe0100</color>
+
+
+    <!-- 图片浏览 -->
+    <color name="gray_style6_808080">#808080</color>
+</resources>

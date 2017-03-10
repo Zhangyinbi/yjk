@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/Owner_grey_f0f0f0"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ed_nick_name"
+        android:layout_width="match_parent"
+        android:hint="请输入昵称"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:textSize="15sp"
+        android:maxLength="12"
+        android:textColorHint="@color/Owner_grey_d2d2d2"
+        android:textColor="@color/text_959595"
+        android:background="@color/white"
+        android:layout_height="50dp"/>
+</LinearLayout>

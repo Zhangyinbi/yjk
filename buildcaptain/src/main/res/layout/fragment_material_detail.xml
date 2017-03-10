@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray_dcdbdb"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@mipmap/ic_material_assist">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="辅材"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_60px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y100"
+                    android:layout_above="@+id/view_fm_material_detail_divide"
+                    android:background="@mipmap/ic_black_alpha50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_fm_material_detail_assist_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_orderbreakdown"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/x10"
+                            android:text="订单明细"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_36px"/>
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="@dimen/x2"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/y10"
+                        android:layout_marginTop="@dimen/y10"
+                        android:alpha="0.5"
+                        android:background="@color/white"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_fm_material_detail_assist_to_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.4"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_ordericon"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/x10"
+                            android:text="下单"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_36px"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_fm_material_detail_divide"
+                    style="@style/view_grayd1d1d1_divider"
+                    android:layout_height="@dimen/y3"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@mipmap/ic_material_main">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="@dimen/y60"
+                    android:text="主材"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_60px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y100"
+                    android:layout_above="@+id/view_fm_material_detail_divide2"
+                    android:background="@mipmap/ic_black_alpha50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_fm_material_detail_main_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_orderbreakdown"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/x10"
+                            android:text="订单明细"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_36px"/>
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="@dimen/x2"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/y10"
+                        android:layout_marginTop="@dimen/y10"
+                        android:alpha="0.5"
+                        android:background="@color/white"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_fm_material_detail_main_to_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_ordericon"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/x10"
+                            android:text="确认数量"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_36px"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_fm_material_detail_divide2"
+                    style="@style/view_grayd1d1d1_divider"
+                    android:layout_height="@dimen/y3"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@mipmap/btn_zgcl"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="@dimen/y60"
+                    android:text="自购材料"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_60px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y100"
+                    android:layout_alignParentBottom="true"
+                    android:background="@mipmap/ic_black_alpha50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_fm_material_detail_user_purchase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_orderbreakdown"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/x10"
+                            android:text="订单明细"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_36px"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    style="@style/view_grayd1d1d1_divider"
+                    android:layout_height="@dimen/y3"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@mipmap/ic_material_add"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="@dimen/y60"
+                    android:text="工程增加项"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_60px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y100"
+                    android:layout_alignParentBottom="true"
+                    android:background="@mipmap/ic_black_alpha50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_fm_material_detail_add_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_orderbreakdown"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/x10"
+                            android:text="订单明细"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_36px"/>
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="@dimen/x2"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/y10"
+                        android:layout_marginTop="@dimen/y10"
+                        android:alpha="0.5"
+                        android:background="@color/white"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_fm_material_detail_add_to_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.4"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_ordericon"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/x10"
+                            android:text="下单"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_36px"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

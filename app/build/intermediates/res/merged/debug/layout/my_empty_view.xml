@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_empty_view_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_empty_orders" />
+
+    <TextView
+        android:id="@+id/tv_empty_view_content"
+        style="@style/tv_Gray959595_Szie32"
+        android:layout_marginTop="@dimen/y20"
+        android:text="暂无订单"
+        android:textSize="@dimen/textsize_40px" />
+
+</LinearLayout>

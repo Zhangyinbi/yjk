@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View style="@style/view_grayd1d1d1_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:background="@color/gray_dcdbdb"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_pop_select_all_date"
+            style="@style/tv_gray7d7d7d_Size36_round_style"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/x36"
+            android:layout_marginRight="@dimen/x36"
+            android:layout_weight="1"
+            android:text="全部时间" />
+
+        <TextView
+            android:id="@+id/tv_pop_select_date"
+            style="@style/tv_gray7d7d7d_Size36_round_style"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/x36"
+            android:layout_marginRight="@dimen/x36"
+            android:layout_weight="1"
+            android:text="选择时间" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pop_select_data_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_dcdbdb"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <DatePicker
+            android:id="@+id/dp_pop_select_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:calendarViewShown="false"></DatePicker>
+
+        <TextView
+            android:id="@+id/tv_pop_select_data_affirm"
+            style="@style/tv_gray7d7d7d_Size36_round_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y15"
+            android:layout_marginLeft="@dimen/x100"
+            android:layout_marginRight="@dimen/x100"
+            android:padding="@dimen/x15"
+            android:text="确定" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_pop_select_date_translucence_layer"
+        style="@style/view_match_black_translucent_bg" />
+
+
+</LinearLayout>

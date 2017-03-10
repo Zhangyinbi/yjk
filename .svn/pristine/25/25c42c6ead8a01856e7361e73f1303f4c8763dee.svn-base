@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_add_question_comment_tab0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_add_question_comment_tab0"
+                style="@style/tv_Gray959595_Szie32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="问题"
+                android:textColor="@color/red_e76170" />
+
+            <View
+                android:id="@+id/view_add_question_comment_index0"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/y5"
+                android:background="@color/red_e76170" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_add_question_comment_tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_add_question_comment_tab1"
+                style="@style/tv_Gray959595_Szie32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="评价"
+                android:textColor="@color/gray_959595" />
+
+            <View
+                android:id="@+id/view_add_question_comment_index1"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/y5"
+                android:background="@color/red_e76170"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/view_grayd1d1d1_divider" />
+
+    <FrameLayout
+        android:id="@+id/fl_add_question_comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

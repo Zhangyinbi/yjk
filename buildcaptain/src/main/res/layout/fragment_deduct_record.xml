@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_fm_deduct_record_header_date_filter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:background="@color/gray_d1d1d1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_fm_deduct_record_header_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部时间"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_36px" />
+
+        <ImageView
+            android:id="@+id/imgv_fm_deduct_record_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_build_greyarrowdown" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_fm_deduct_record_total_money"
+        style="@style/tv_Gray959595_Szie32"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y60"
+        android:background="@color/gray_f1f1f1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/x20"
+        android:text="工地扣款总额："
+        android:textSize="@dimen/textsize_30px" />
+
+
+    <com.hbw.library.view.TraditionListView
+        android:id="@+id/lv_fm_deduct_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"></com.hbw.library.view.TraditionListView>
+
+</LinearLayout>

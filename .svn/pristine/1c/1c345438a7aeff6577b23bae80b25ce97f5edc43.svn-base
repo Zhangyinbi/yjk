@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_my_order_material_name"
+        style="@style/tv_Gray959595_Szie32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/x15"
+        android:text="玻化砖"
+        android:textSize="@dimen/textsize_28px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_f4f4f4"
+        android:orientation="horizontal"
+        android:padding="@dimen/x15">
+
+        <TextView
+            android:id="@+id/tv_item_my_order_material_brand"
+            style="@style/tv_Gray959595_Szie32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="瓷砖格莱美"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_item_my_order_material_price"
+            style="@style/tv_Gray959595_Szie32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="274.00元"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

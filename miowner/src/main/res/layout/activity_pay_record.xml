@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray_f1f1f1"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--实付金额布局-->
+            <LinearLayout
+                android:id="@+id/ll_actually_paid_money_expandable"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:background="@drawable/selector_bg_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Fm_ffffff_36_Tv"
+                    android:id="@+id/tv_actually_paid_money"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="@dimen/x24"
+                    android:text="@string/str_pra_pay_money"
+                    android:textSize="@dimen/textsize_32px" />
+
+            </LinearLayout>
+            <View
+                style="@style/view_grayd1d1d1_divider"
+                android:layout_marginLeft="@dimen/x24"
+                android:layout_marginRight="@dimen/x24" />
+
+            <!--实付金额子布局-->
+            <LinearLayout
+                android:id="@+id/ll_actually_paid_money_child"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_payment_actually_paid_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/payment_actually_paid_money"
+                    android:textSize="@dimen/textsize_32px"
+                    android:textColor="@color/text_959595" />
+
+                <TextView
+                    android:id="@+id/tv_add_prepay_actually_paid_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/add_prepay_actually_paid_money"
+                    android:textSize="@dimen/textsize_32px"
+                    android:textColor="@color/text_959595" />
+
+                <TextView
+                    android:id="@+id/tv_refund_actually_paid_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/refund_actually_paid_money"
+                    android:textSize="@dimen/textsize_32px"
+                    android:textColor="@color/text_959595" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y20"
+                android:background="@color/gray_f1f1f1" />
+
+            <!--合同金额父布局-->
+            <LinearLayout
+                android:id="@+id/ll_pay_record_pact_money_expandable"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:background="@drawable/selector_bg_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_pay_record_pact_money"
+                    style="@style/Fm_ffffff_36_Tv"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="@dimen/x24"
+                    android:text="@string/str_pact_money"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <ImageView
+                    android:id="@+id/imgv_pay_record_pact_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/x24"
+                    android:src="@mipmap/skip" />
+
+            </LinearLayout>
+
+
+            <View
+                style="@style/view_grayd1d1d1_divider"
+                android:layout_marginLeft="@dimen/x24"
+                android:layout_marginRight="@dimen/x24" />
+
+            <!--增项金额布局-->
+            <LinearLayout
+                android:id="@+id/ll_pay_record_add_money_expandable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bg_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_pay_record_add_money"
+                    style="@style/Fm_ffffff_36_Tv"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="@dimen/x24"
+                    android:text="@string/str_add_money"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <ImageView
+                    android:id="@+id/imgv_pay_record_add_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/x24"
+                    android:src="@mipmap/skip" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y20"
+                android:background="@color/gray_f1f1f1" />
+
+            <!--退款-->
+            <LinearLayout
+                android:id="@+id/ll_refund_money_expandable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bg_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_refund_money"
+                    style="@style/Fm_ffffff_36_Tv"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:padding="@dimen/x24"
+                    android:text="@string/refund_money"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <ImageView
+                    android:id="@+id/imgv_refund_money_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/x24"
+                    android:src="@mipmap/skip"  />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

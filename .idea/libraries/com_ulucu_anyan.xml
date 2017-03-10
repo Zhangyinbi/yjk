@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.ulucu.anyan">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/miowner/libs/com.ulucu.anyan.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

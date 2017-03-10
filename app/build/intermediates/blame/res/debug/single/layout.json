@@ -1,0 +1,430 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tele.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_tele.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_select_date.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\pop_select_date.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_material_type.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\pop_material_type.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_fm_meterial_detail.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\listitem_fm_meterial_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_dir_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\PhotoMultiSelect\\unspecified\\res\\layout\\list_dir_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\login_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quantities.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_quantities.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\PhotoMultiSelect\\unspecified\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\assist_type_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\assist_type_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\switch_button_change_line.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\switch_button_change_line.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\supervision_report_tab_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\supervision_report_tab_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_material_order.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\list_item_material_order.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_hint.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\dialog_hint.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_spinner_progject_cost.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\item_spinner_progject_cost.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_bill.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_check_bill.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_bar.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\title_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_main.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\PhotoMultiSelect\\unspecified\\res\\layout\\activity_photo_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_material_order_detail.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_material_order_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\base_activity.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_payment_detail.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\fragment_payment_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_picture.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\popwindow_picture.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patrol_record_add.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_patrol_record_add.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_empty_view.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\my_empty_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_pull2refresh.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\head_pull2refresh.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_orders_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\all_orders_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_set_password.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\head_set_password.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_project_add_matter_detail.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\fragment_project_add_matter_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_details.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_assist_advocate_material_order.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_assist_advocate_material_order.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_retrieve_password_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\login_retrieve_password_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_refund_money.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\listitem_refund_money.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_set_password_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\login_set_password_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_buildingsite.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_buildingsite.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_prompt.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\dialog_prompt.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_pay_record.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\listitem_pay_record.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_dir.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\PhotoMultiSelect\\unspecified\\res\\layout\\list_dir.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\land_empty.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\land_empty.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_refund_money.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_refund_money.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\patrol_record_list_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\patrol_record_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_set.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\message_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picture.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\activity_picture.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_material_order_view.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\pop_material_order_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chang_selfdata_activity.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\chang_selfdata_activity.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_project_add_matter_detail.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\listitem_project_add_matter_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\empty_view.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\empty_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\foot_more.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\foot_more.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_record_add_money.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_pay_record_add_money.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\griditem_addpic.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\griditem_addpic.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_record_pact.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_pay_record_pact.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contract_info.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\fragment_contract_info.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\building_site_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\building_site_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_check_bill.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\item_check_bill.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_fragment_payment_detail.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\listitem_fragment_payment_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_assist_details.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_assist_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_refresh.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\head_refresh.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\empty_msg_view.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\empty_msg_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragemnt_meterial_detail.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\fragemnt_meterial_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_message.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\griditem_updatepic.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\griditem_updatepic.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patrol_record_details.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_patrol_record_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_quantities.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\listitem_quantities.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_assist_details.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\adapter_assist_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_add_remark.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\dialog_add_remark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_record.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_pay_record.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contacts.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_contacts.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patrol_record.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\activity_patrol_record.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contacts_list_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\contacts_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\set_changpassword.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\layout\\set_changpassword.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\layout\\dialog_progress.xml"
+    }
+]

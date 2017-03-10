@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_round_white_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y50"></LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_prompt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:text="这是标题"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize_40px" />
+
+    <TextView
+        android:id="@+id/dialog_prompt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/y20"
+        android:paddingBottom="@dimen/y35"
+        android:text="确认删除？"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize_36px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/divider_b2b2b2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dialog_prompt_left_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@drawable/selector_text_color_blue"
+            android:textSize="@dimen/textsize_38px" />
+
+        <View
+            android:layout_width="@dimen/y1"
+            android:layout_height="match_parent"
+            android:background="@color/divider_b2b2b2" />
+
+        <TextView
+            android:id="@+id/dialog_prompt_right_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y106"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@drawable/selector_text_color_blue"
+            android:textSize="@dimen/textsize_38px" />
+    </LinearLayout>
+
+</LinearLayout>

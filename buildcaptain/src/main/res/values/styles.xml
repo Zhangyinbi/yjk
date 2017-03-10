@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyPhone"  parent="android:Theme.Translucent.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/red_c30d22</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+
+    <!--</style>-->
+
+    <style name="TextView_Common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="tv_Gray959595_Szie32">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_959595</item>
+        <item name="android:textSize">@dimen/textsize_32px</item>
+    </style>
+
+    <style name="tv_Rede76170_Szie34">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/red_e76170</item>
+        <item name="android:textSize">@dimen/textsize_34px</item>
+    </style>
+
+    <style name="tv_Black000000_Szie32">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textsize_32px</item>
+    </style>
+
+    <style name="view_grayd1d1d1_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/y1</item>
+        <item name="android:background">@color/gray_d1d1d1</item>
+    </style>
+
+    view_match_black_translucent_bg
+
+    <style name="Main_Tab_Tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_20px</item>
+        <item name="android:textColor">@color/gray_959595</item>
+    </style>
+
+    <style name="view_match_black_translucent_bg">
+        <item name="android:alpha">0.6</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="tv_gray7d7d7d_Size36_round_style">
+        <item name="android:layout_width">@dimen/x200</item>
+        <item name="android:layout_height">@dimen/x80</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_red_bg</item>
+        <item name="android:textColor">@drawable/selector_white_text_bg</item>
+        <item name="android:textSize">@dimen/textsize_36px</item>
+    </style>
+
+</resources>

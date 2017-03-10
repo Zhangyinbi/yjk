@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bdf516d9fd3b58d0dcaea4d5ef3e51005e610d12">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\instant-run-bootstrap_57822a234c810b137cb5821c2cd72898fb869c11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\core-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c1d5c005215f09fd8866c646cf5816e8385cb93d">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\core-3.0.0_225748ffd051caa50db50134fd0ade4abc3446ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\gson-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d7da55c2675973ef50283d74fe44736ba43cd0ec">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\gson-2.1_9e4f12e71dc6f90e9c30b9d3f6aec3ac07deeb6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\httpmime-4.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1d78fd95cfbd4d8fb6f8726347fa3bda24d162ee">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\httpmime-4.1.3_35cb4ba942b658dd577e02877595fa7489ebde71.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\core-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c1d5c005215f09fd8866c646cf5816e8385cb93d">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\8\core-3.0.0_3467195100f0f0e8a846169cc9bf098e5c76f623\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6508b44bc0d679a81a4c0fbae88d03ecbc6651e4">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\instant-run_9fea034ee6916e87d78325ea707d3fb717d08724.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.4.0_de806397104d95a1cd84d4663be492d73ee07445.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="be82f62a8dc7d38bcd93df21d547abe6f19601c8">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\8\universal-image-loader-1.9.2-SNAPSHOT-with-sources_4d9504ed9e4ada614e7926b75bebcfc65548e800\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_6921f1bcd8fe6a778e80fdb7610064b95edc6270.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\gson-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7da55c2675973ef50283d74fe44736ba43cd0ec">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\8\gson-2.1_6d100d65ab6e2b2b4668b644080227b405aa8ef3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_b4b7b56f49139ad1fdab9705c0b182921e6374dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\libs\jpush-android-2.0.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2c821a0d13219a2e70490085c390bab03fb5953">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\2\jpush-android-2.0.5_6732ac144e00afb6a6ce7ffce83ebc37cf472452\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_1dbdb99c78976407fd80014c5f143c5189faba7b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\httpmime-4.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1d78fd95cfbd4d8fb6f8726347fa3bda24d162ee">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\8\httpmime-4.1.3_60300f7dcb4ba0f1ee640ac8f9a1ed0d2060e3a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="634ccf52c8b58a9eafd4a574b38d165e8648a574">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\com.lovedise-permissiongen-0.0.6_e918b13d12fe59780313ee3024ef2d220ada0df9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fef719fbca78dba4ee7f0896fb38e446d19ee29a">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\8\pinyin4j-2.5.0_e14d5045708723d7a80e0d3d24f9716529f5e3b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_758c9ffc84eceed63136a328b1b64e64f0c4bf67\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8ae00ad381431c995b273a462bec2347d8cc3d58">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\volley_5399fde1863aa8f4a8c91149d04b7607ad819859.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.4.0_871e6ded18cc8df57f8fbadc0ff1478d231248b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.facebook.rebound\rebound\0.3.8\c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e\rebound-0.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\rebound-0.3.8_2b3d1a3e49e919d2565e8622771606a7e2aaa6e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\support-annotations-23.4.0_0b5b7c2eab8afef5a0d4f84f4adb566bc4c58e7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="48b5d18bc827fb39a41608b7db7d989441e4a0ba">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\MiProjectManager-library-unspecified_74cc317aadd0c793774397210f05fdeabc07f348.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ae00ad381431c995b273a462bec2347d8cc3d58">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\volley_74b9ea0e61e25786071124cf9ec734cc3564cc4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="be82f62a8dc7d38bcd93df21d547abe6f19601c8">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.2-SNAPSHOT-with-sources_4359abb6b87f57c1f3947bfa12ecabb963ec65fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_47caa0a568b38021695f74b586c888ec5d30d410.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="be82f62a8dc7d38bcd93df21d547abe6f19601c8">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2-SNAPSHOT-with-sources_58322f4546a5689f734935ec5f5f2cefbae7c4ca.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_bbeb72dd97c5c92b8efe8bc0e24ef44787e358da\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.4.0_d16769ce3211f03398e80d1d9ee35013776026db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1d78fd95cfbd4d8fb6f8726347fa3bda24d162ee">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\httpmime-4.1.3_5c77f7d47cc5e2e9a4978d7ab1f9b4566ab5c3c9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="efac1ed06401cd8ec5c7d6b2059867b000fe20b0">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_58080dbdcf9e33b7da5b1804f3a4bd233079c070\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fef719fbca78dba4ee7f0896fb38e446d19ee29a">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_12471c223febd044d655fe227e67c23458e6d020.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_3ee39d7e581aee9e88fcacfe2d3ca4fb9a9199df.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="634ccf52c8b58a9eafd4a574b38d165e8648a574">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\com.lovedise-permissiongen-0.0.6_8414aab7cf69703b09c2c0f5fbbe3cfe28cf6e64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.facebook.rebound\rebound\0.3.8\c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e\rebound-0.3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\rebound-0.3.8_2b3d1a3e49e919d2565e8622771606a7e2aaa6e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.4.0_8bf362282b1e4f34f13f8aff2b230b3d07f82021.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_a0753ce33aa10ca4f36e343a484afdab4cc4cc9e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\com.jzxiang.pickerview\TimePickerDialog\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="32c0bf3a62b3f92a29e778953d1929c378aab264">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\com.jzxiang.pickerview-TimePickerDialog-1.0.1_8ae859295ee7d72798b8bbb606bd6fe653652d67\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\internal_impl-23.4.0_fb1941994d678764b9530528ea5e49f6f8924b55.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_490caefba52b5122ebbae9341e2bb6cef5523bb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="634ccf52c8b58a9eafd4a574b38d165e8648a574">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\com.lovedise-permissiongen-0.0.6_82b56d14359ab983c00c00debb719382ca3620ff.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1451f46628e08af4ded938144b3f05694aa667f1">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_591e7e22086fec8648305053329f0568ce3e2fea\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\core-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c1d5c005215f09fd8866c646cf5816e8385cb93d">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\core-3.0.0_11c49460a4f34130fcf1280b03b38727a700ba18.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_1748d289b1982ef022e04dc343f56a3280442bab\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_9c849c1db560de82d628ff28f4001bc5e9416b4d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ae00ad381431c995b273a462bec2347d8cc3d58">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\8\volley_f306d2f13ceaf93c6205f05107ede6ef7048ac14\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\libs\com.ulucu.anyan.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ef3d3553d950d1c1951f4dca97f2799eeef0fae">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\com.ulucu.anyan_9102ed6230dfaf62e31fa6d7a2512644d6b33ed3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_0b5b7c2eab8afef5a0d4f84f4adb566bc4c58e7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\MiProjectManager\PhotoMultiSelect\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e5f065188055fcb52e3004a63016fe2388094f17">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\MiProjectManager-PhotoMultiSelect-unspecified_cf9c8d03554d580cc863bd3b69e056f224cb3ebb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.4.0_1fa959d7cb9c573471dd83f5533f4cbd5f8ceb51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fef719fbca78dba4ee7f0896fb38e446d19ee29a">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\app\build\intermediates\pre-dexed\release\pinyin4j-2.5.0_7601337b3ab21a1e79deb96eed9058a9a7e9459d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\exploded-aar\MiProjectManager\library\unspecified\jars\libs\gson-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7da55c2675973ef50283d74fe44736ba43cd0ec">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\gson-2.1_09d11b1043fd1cbcc95fd14d559ab7b7ffde1f3b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_0b5b7c2eab8afef5a0d4f84f4adb566bc4c58e7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\buildcaptain\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_93bdd24cb9eec29d8f3e62b4ec5f6f19c60ec3cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.facebook.rebound\rebound\0.3.8\c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e\rebound-0.3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e">
+        <dex dex="E:\AndroidStudioProjects\MiProjectManager\miowner\build\intermediates\pre-dexed\debug\rebound-0.3.8_2b3d1a3e49e919d2565e8622771606a7e2aaa6e5.jar" />
+    </item>
+
+</items>

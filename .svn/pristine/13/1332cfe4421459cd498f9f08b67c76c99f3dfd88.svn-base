@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.xiaomizhuang.buildcaptain"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RIDE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <!-- Required 自定义用来收发消息的相关权限 -->
+    <permission
+        android:name="${applicationId}.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature"/>
+
+    <!-- Required 一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="${applicationId}.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <application
+        android:name=".util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 工地列表 -->
+        <activity
+            android:name=".activity.BuildSiteActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+
+        <!-- 全部订单 -->
+        <activity
+            android:name=".activity.AllOrdersActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 全部消息 -->
+        <activity
+            android:name=".activity.MessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 辅材明细 大类 -->
+        <activity
+            android:name=".activity.AssistDetailsActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 辅材类型 小类 -->
+        <activity
+            android:name=".activity.AssistTypeActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 订单详情 辅材下单界面 -->
+        <activity
+            android:name=".activity.AssistOrderDetailsActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 选择材料类型 -->
+        <activity
+            android:name=".activity.AssistMaterialTypeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <!-- 选择规格类型 -->
+        <activity
+            android:name=".activity.AssistSpecificationsModelsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <!-- 选择施工阶段 -->
+        <activity
+            android:name=".activity.AssistConstructionStageActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 品牌商家 -->
+        <activity
+            android:name=".activity.AssistBrandManufacturersActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 设置 -->
+        <activity
+            android:name=".activity.AssistSettingActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 修改密码 -->
+        <activity
+            android:name=".activity.AssistChangePasswordActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 选择单位 -->
+        <activity
+            android:name=".activity.AssistSelectUnitActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 工地详情 -->
+        <activity
+            android:name=".activity.BuildDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 主材 辅材 订单详情 -->
+        <activity
+            android:name=".activity.MaterialOrderDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 工程量列表 -->
+        <activity
+            android:name=".activity.QuantitiesActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 扣款记录详情 -->
+        <activity
+            android:name=".activity.DeductRecordDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 全部工地扣款记录 -->
+        <activity
+            android:name=".activity.AllBuildDeductRecordActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 排期详情材料订单 -->
+        <activity
+            android:name=".activity.ScheduleOrderDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 主材下单 -->
+        <activity
+            android:name=".activity.AssistAdvocateMaterialOrderActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <!-- 增加工程项目类别 -->
+        <activity
+            android:name=".activity.AssistProgectAddMatterActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 增加工程项目数量确认 -->
+        <activity
+            android:name=".activity.AssistProgectAddMatterOrderActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <!-- 施工记录 -->
+        <activity
+            android:name=".activity.AssistAsBuiltRecordsActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 添加施工记录 -->
+        <activity
+            android:name=".activity.AssistAsBuiltRecordsAddActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <!-- 查看图片 -->
+        <activity
+            android:name="com.hbw.library.pictureview.ImageGalleryActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 查看图片 -->
+        <activity
+            android:name="com.zhy.imageloader.PhotoMultiSelectActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 设置施工排期 -->
+        <activity
+            android:name=".activity.SetScheduleActivity"
+            android:screenOrientation="portrait"/>
+
+        <!--自购材料-->
+        <activity android:name=".activity.UserPurchaseActivity"
+                  android:screenOrientation="portrait"/>
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="${applicationId}"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 获取节点备注 -->
+        <activity
+            android:name=".activity.AssistNodeNoteActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Required SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <!-- Required SDK 核心功能 -->
+        <!-- option since 2.0.5 可配置PushService，DaemonService,PushReceiver,AlarmReceiver的android:process参数 将JPush相关组件设置为一个独立进程 -->
+        <!-- 如：android:process=":remote" -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER"/>
+                <action android:name="cn.jpush.android.intent.REPORT"/>
+                <action android:name="cn.jpush.android.intent.PushService"/>
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"/>
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK 核心功能 since 1.8.0 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService"/>
+
+                <category android:name="${applicationId}"/>
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
+                <!-- Required 显示通知栏 -->
+                <category android:name="${applicationId}"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver"/>
+
+        <!-- User defined. 用户自定义的广播接收器 -->
+        <receiver
+            android:name=".util.MyJpushReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION"/>
+                <!-- Required 用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"/>
+                <!-- Required 用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"/>
+                <!-- Required 用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"/>
+                <!-- Required 用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK"/>
+                <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION"/>
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="${applicationId}"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- Required . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-yb"/>
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="71b9c841e1f3a54f56fd5e1b"/>
+        <!-- </>值来自开发者平台取得的AppKey -->
+
+    </application>
+
+</manifest>

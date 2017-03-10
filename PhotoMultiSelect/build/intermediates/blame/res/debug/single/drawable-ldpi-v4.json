@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\anim_progress_three.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable-ldpi-v4\\anim_progress_three.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\anim_progress_one.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable-ldpi-v4\\anim_progress_one.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\refresh_logo_dot.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable-ldpi-v4\\refresh_logo_dot.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\refresh.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable-ldpi-v4\\refresh.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\anim_progress_four.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable-ldpi-v4\\anim_progress_four.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\anim_progress_bg.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable-ldpi-v4\\anim_progress_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\anim_progress_two.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable-ldpi-v4\\anim_progress_two.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\refresh_logo.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\PhotoMultiSelect\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable-ldpi-v4\\refresh_logo.png"
+    }
+]

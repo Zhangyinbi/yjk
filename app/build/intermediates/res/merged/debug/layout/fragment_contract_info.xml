@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/sl_contractInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y80"
+                android:background="@color/Owner_grey_e5e5e5"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="基础信息"
+                android:textColor="@color/text_959595"
+                android:textSize="@dimen/textsize_32px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/tv_baoming_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="业主编号 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_qy_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="签约时间 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="面积 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_zxtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="装修范围 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_is_preference"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="满70㎡优惠 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y80"
+                android:background="@color/Owner_grey_e5e5e5"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="合同金额"
+                android:textColor="@color/text_959595"
+                android:textSize="@dimen/textsize_32px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/tv_front_money_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="定金 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_maintenance_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="管理费 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_taocan_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="套餐选择 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_main_material_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="预付主材款 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_design_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="设计费 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_tax_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="合同开票税金 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_half_package_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="半包金额 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+                <TextView
+                    android:id="@+id/tv_increase_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y40"
+                    android:text="预定增项款 : "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_32px" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

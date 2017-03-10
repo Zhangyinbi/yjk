@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.example.yangbang.miowner.view.MyGridView
+                android:id="@+id/gv_pop_material_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:listSelector="@color/transparent"
+                android:numColumns="3"
+                android:padding="@dimen/x10"
+                tools:listitem="@layout/assist_type_item" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <View
+                    style="@style/view_grayd1d1d1_divider"
+                    android:layout_marginLeft="@dimen/y22"
+                    android:layout_marginRight="@dimen/y22" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y300"
+                android:background="@color/white">
+
+                <EditText
+                    android:id="@+id/et_fragment_add_question_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/tv_fragment_add_question_text_limit"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@null"
+                    android:gravity="start"
+                    android:hint="请输入问题描述"
+                    android:maxLength="200"
+                    android:padding="@dimen/x15"
+                    android:textColorHint="@color/gray_d2d2d2"
+                    android:textSize="@dimen/textsize_30px" />
+
+                <TextView
+                    android:id="@+id/tv_fragment_add_question_text_limit"
+                    style="@style/tv_Gray959595_Szie32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/x10"
+                    android:text="还可以输入200字"
+                    android:textSize="@dimen/textsize_24px" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <View
+                    style="@style/view_grayd1d1d1_divider"
+                    android:layout_marginLeft="@dimen/y22"
+                    android:layout_marginRight="@dimen/y22" />
+            </LinearLayout>
+
+            <com.example.yangbang.miowner.view.MyGridView
+                android:id="@+id/patrol_record_add_ONE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:numColumns="3" />
+
+            <TextView
+                android:id="@+id/tv_fragment_add_question_photo_limit"
+                style="@style/tv_Gray959595_Szie32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="@dimen/x15"
+                android:text="发照片（0/3）"
+                android:textSize="@dimen/textsize_24px" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

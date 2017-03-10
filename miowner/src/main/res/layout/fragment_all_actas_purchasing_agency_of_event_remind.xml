@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_ffffff"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rb_all"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_common_radiobutton_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:minWidth="@dimen/x160"
+                android:text="全部"
+                android:textColor="@drawable/selector_common_radiobutton_text"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/rb_no_installed"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_common_radiobutton_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:minWidth="@dimen/x160"
+                android:text="未收货/安装"
+                android:textColor="@drawable/selector_common_radiobutton_text"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/rb_installed"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_common_radiobutton_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:minWidth="@dimen/x160"
+                android:text="已收货/安装"
+                android:textColor="@drawable/selector_common_radiobutton_text"
+                android:textSize="16sp"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/event_remind_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"></ListView>
+</LinearLayout>

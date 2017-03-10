@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1"
+    android:orientation="vertical">
+
+    <com.hbw.library.view.TabLayout
+        android:id="@+id/tl_spv_re_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" />
+
+    <View style="@style/view_grayd1d1d1_divider" />
+
+    <ListView
+        android:id="@+id/lv_supervision_report"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"></ListView>
+
+</LinearLayout>

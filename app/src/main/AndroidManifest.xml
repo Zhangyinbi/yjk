@@ -1,0 +1,159 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.youjuke.miprojectmanager"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RIDE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar">
+
+        <!-- 登陆 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 忘记密码 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.ForgetPasswordActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 找回密码 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.RetrievePasswordActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 在建工地 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.BuildingSiteActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 设置 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.SetActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 巡查记录列表 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.PatrolRecordActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 查看图片 -->
+        <activity
+            android:name="com.hbw.library.pictureview.ImageGalleryActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 图片多选 -->
+        <activity
+            android:name="com.zhy.imageloader.PhotoMultiSelectActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 添加工地巡查记录 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.PatrolRecordAddActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <!-- 编辑工地巡查记录 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.PatrolRecordUpdateActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <!-- 巡查记录详情页 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.PatrolRecordDetailsActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 修改个人信息 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.ChangSelfDataActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 修改密码 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.ChangePasswordActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 通讯录 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.ContactsActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 验收单 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.CheckBillActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 消息提醒 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.MessageActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 付款记录 -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.PayRecordActivity"
+            android:screenOrientation="portrait"></activity>
+        <!-- 拨打电话activity -->
+        <activity
+            android:name="com.youjuke.miprojectmanager.activity.TeleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"></activity>
+
+        <!-- 工程量列表 -->
+        <activity
+            android:name=".activity.QuantitiesActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- 增加工程项目类别 -->
+        <activity
+            android:name=".activity.AssistProgectAddMatterActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- 增加工程项目数量确认 -->
+        <activity
+            android:name=".activity.AssistProgectAddMatterOrderActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"></activity>
+
+        <!--付款记录_合同金额-->
+        <activity
+            android:name=".activity.PayRecordPactActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <!--付款记录_增项金额-->
+        <activity
+            android:name=".activity.PayRecordAddMoneyActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <!--付款记录_退款金额-->
+        <activity
+            android:name=".activity.RefundMoneyActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+    </application>
+
+</manifest>

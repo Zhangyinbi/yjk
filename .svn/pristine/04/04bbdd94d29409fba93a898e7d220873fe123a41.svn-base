@@ -1,0 +1,142 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Main_Tab_Tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_20px</item>
+        <item name="android:textColor">@color/gray_959595</item>
+    </style>
+
+    <style name="Fm_ffffff_36_Tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_36px</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Tab_959595_32_Tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_32px</item>
+        <item name="android:textColor">@color/gray_959595</item>
+    </style>
+
+    <style name="view_grayd1d1d1_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/y1</item>
+        <item name="android:background">@color/gray_d1d1d1</item>
+    </style>
+
+    <style name="view_red_e76170_5px_indicator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/y5</item>
+        <item name="android:background">@color/red_e76170</item>
+    </style>
+
+
+    <style name="MyButton" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_select</item>
+    </style>
+
+    <style name="MySwitch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/toggle_select_background</item>
+    </style>
+
+    <style name="ControlSwitch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/playstateselete</item>
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#8A2BE2</item>
+    </style>
+
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="tv_Gray959595_Szie32">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_959595</item>
+        <item name="android:textSize">@dimen/textsize_32px</item>
+    </style>
+
+    <style name="tv_gray7d7d7d_Size36_round_style">
+        <item name="android:layout_width">@dimen/x200</item>
+        <item name="android:layout_height">@dimen/x80</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_red_bg</item>
+        <item name="android:textColor">@drawable/selector_white_text_bg</item>
+        <item name="android:textSize">@dimen/textsize_36px</item>
+    </style>
+
+    <style name="textview_gray_959595" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_959595</item>
+        <item name="android:textSize">@dimen/textsize_26px</item>
+    </style>
+
+    <style name="textview_black_313131" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_text_313131</item>
+        <item name="android:textSize">@dimen/textsize_26px</item>
+    </style>
+
+    <style name="linearlayout_margin_h" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/y18</item>
+        <item name="android:layout_marginTop">@dimen/y18</item>
+        <item name="android:layout_marginLeft">@dimen/x22</item>
+        <item name="android:layout_marginRight">@dimen/x22</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="view_match_black_translucent_bg">
+        <item name="android:alpha">0.6</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+</resources>

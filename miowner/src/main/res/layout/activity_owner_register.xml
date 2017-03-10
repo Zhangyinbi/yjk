@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Owner_grey_f1f1f1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/owner_shape_register"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_phone_et"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y100"
+            android:layout_margin="@dimen/x2"
+            android:layout_weight="1"
+            android:background="@color/Owner_white_ffffff"
+            android:gravity="center_vertical"
+            android:hint="请输入电话号码"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_26px" />
+
+        <LinearLayout
+            android:id="@+id/login_img_LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/register_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/x18"
+                android:layout_marginRight="@dimen/x18"
+                android:background="@mipmap/x" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y110"
+        android:background="@drawable/owner_shape_register"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_verification_code_et"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y100"
+            android:layout_margin="@dimen/x2"
+            android:layout_weight="1"
+            android:background="@color/Owner_white_ffffff"
+            android:gravity="center_vertical"
+            android:hint="请输入验证码"
+            android:inputType="phone"
+            android:maxLength="6"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_26px" />
+
+        <com.example.yangbang.miowner.view.TimeButton
+            android:id="@+id/register_gain_code_btn"
+            android:layout_width="@dimen/x250"
+            android:layout_height="@dimen/y104"
+            android:background="@color/Owner_red_e76270"
+            android:layout_gravity="center"
+            android:text="获取验证码"
+            android:textColor="@color/Owner_white_ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

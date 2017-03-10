@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Owner_grey_f0f0f0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/owner_settings_icon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y160"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_weight="1"
+            android:text="我的头像"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_32px" />
+
+        <FrameLayout
+            android:layout_width="@dimen/x140"
+            android:layout_height="@dimen/x140"
+            android:layout_marginRight="@dimen/x24">
+
+            <ImageView
+                android:id="@+id/owner_settings_img"
+                android:layout_width="@dimen/x140"
+                android:layout_height="@dimen/x140"
+                android:layout_marginRight="@dimen/x24" />
+
+            <ImageView
+                android:layout_width="@dimen/x140"
+                android:layout_height="@dimen/x140"
+                android:layout_marginRight="@dimen/x24"
+                android:src="@mipmap/circle" />
+        </FrameLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/x24"
+            android:src="@mipmap/right_arrow" />
+    </LinearLayout>
+
+    <View
+        android:background="@color/Owner_grey_d2d2d2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:id="@+id/owner_settings_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_weight="1"
+            android:text="昵称"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_32px" />
+
+        <TextView
+            android:id="@+id/tv_settings_nick_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="mwy"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/x24"
+            android:textColor="@color/text_959595"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/x24"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/owner_settings_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:layout_marginTop="@dimen/y30"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_weight="1"
+            android:text="关联手机号码"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_32px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/x24"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@color/Owner_grey_d2d2d2" />
+
+    <LinearLayout
+        android:id="@+id/owner_settings_modify_pasword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_weight="1"
+            android:text="修改密码"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_32px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/x24"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/owner_settings_exit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:layout_marginTop="@dimen/y30"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="退出登录"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_32px" />
+
+    </LinearLayout>
+
+</LinearLayout>

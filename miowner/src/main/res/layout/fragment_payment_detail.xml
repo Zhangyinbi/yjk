@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Owner_grey_e5e5e5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_payment_detail_listview_heard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:background="@color/Owner_grey_e5e5e5"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="款项"
+            android:textColor="@color/text_959595"
+            android:textSize="@dimen/textsize_32px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="比例"
+            android:textColor="@color/text_959595"
+            android:textSize="@dimen/textsize_32px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="应收金额"
+            android:textColor="@color/text_959595"
+            android:textSize="@dimen/textsize_32px" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="实收金额"
+            android:textColor="@color/text_959595"
+            android:textSize="@dimen/textsize_32px" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_fm_payment_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        tools:listitem="@layout/listitem_fragment_payment_detail"></ListView>
+
+</LinearLayout>

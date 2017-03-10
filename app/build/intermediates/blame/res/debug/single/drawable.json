@@ -1,0 +1,390 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dismiss_group_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\dismiss_group_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_transparent.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_transparent.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pop_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_pop_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_submit_order.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_submit_order.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_color_gray_black.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_text_color_gray_black.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_color_white_black_tint.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_text_color_white_black_tint.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_tab_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\common_tab_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_white_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\shape_round_white_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_text_red_stroke.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_text_red_stroke.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_progressr.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\anim_progressr.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_complain_bg_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_complain_bg_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_item_selected.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\skyblue_platform_list_item_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dash_divider_gray.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\dash_divider_gray.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_color_black_white.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_text_color_black_white.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_text_gray_press_stroke.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_text_gray_press_stroke.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_edit_text_bg_false.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_edit_text_bg_false.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_progress_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\shape_progress_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_list_item_press.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_list_item_press.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_gray_lightgray.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_bg_gray_lightgray.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_title_btn_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_title_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_color_white_black.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_text_color_white_black.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_cancel_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\dialog_cancel_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\classic_platform_corners_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\classic_platform_corners_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_guide_page_dot.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_guide_page_dot.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_img.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\default_img.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_contacts.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_bg_contacts.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_list_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_bg_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_gray_btn_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\selector_gray_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\progressbar_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_edit_text_bg_true.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_edit_text_bg_true.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\timestampe_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_edit_text.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_edit_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_search.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_search.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_page_indicator_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_page_indicator_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_room_group_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\contact_room_group_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_lightgraybg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_round_lightgraybg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\filled_box.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\filled_box.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_whitebg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_round_whitebg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_red_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_red_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_text_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_bg_red.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_text_bg_red.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_graybg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_round_graybg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_textcolor_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\login_textcolor_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_color_blue.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_text_color_blue.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\skyblue_platform_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_shape.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\dialog_shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_contacts_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_contacts_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow.png",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_white_text_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_white_text_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_red_solid_stroke.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_red_solid_stroke.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_list_white_gray.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_bg_list_white_gray.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_gray.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_bg_gray.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_complain_bg_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_complain_bg_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_set.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_bg_set.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_color_red.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_round_color_red.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_hint_dialog.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_hint_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_list_item_default.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_list_item_default.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_login_press.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_login_press.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_gray_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\MiProjectManager\\library\\unspecified\\res\\drawable\\shape_round_gray_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_page_indicator_fg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_page_indicator_fg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_login_default.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_login_default.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_shape.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\edittext_shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_text_red_f65363_stroke.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_text_red_f65363_stroke.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\skyblue_platform_list_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\code_bg_selecter.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\code_bg_selecter.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_text_gray_stroke.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\shape_text_gray_stroke.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_build_deatil_header_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_build_deatil_header_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_login.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\selector_bg_login.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_gray_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\MiProjectManager\\app\\src\\main\\res\\drawable\\stroke_gray_bg.xml"
+    }
+]

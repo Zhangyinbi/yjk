@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_listitem_schedule_material_name"
+        style="@style/tv_Gray959595_Szie32"
+        android:padding="@dimen/x20"
+        android:text="B 玻化砖"
+        android:textSize="@dimen/textsize_34px" />
+
+    <TextView
+        android:id="@+id/tv_listitem_schedule_order_number"
+        style="@style/tv_Gray959595_Szie32"
+        android:paddingBottom="@dimen/x20"
+        android:paddingLeft="@dimen/x20"
+        android:text="订单编号：123124342423"
+        android:textSize="@dimen/textsize_30px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_f4f4f4"
+        android:orientation="vertical"
+        android:padding="@dimen/x20">
+
+        <TextView
+            android:id="@+id/tv_listitem_schedule_brand"
+            style="@style/tv_Black000000_Szie32"
+            android:text="好美佳(玻化砖)"
+            android:textSize="@dimen/textsize_36px" />
+
+        <TextView
+            android:id="@+id/tv_listitem_schedule_name"
+            style="@style/tv_Black000000_Szie32"
+            android:layout_marginTop="@dimen/y10"
+            android:text="恒晟批发仓库好美佳"
+            android:textSize="@dimen/textsize_36px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_listitem_schedule_type"
+                style="@style/tv_Gray959595_Szie32"
+                android:layout_marginBottom="@dimen/y15"
+                android:layout_marginTop="@dimen/y15"
+                android:text="粉色自然石"
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_listitem_schedule_count"
+                style="@style/tv_Gray959595_Szie32"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="x1"
+                android:textSize="@dimen/textsize_34px" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_listitem_schedule_money"
+            style="@style/tv_Black000000_Szie32"
+            android:text="274.00元"
+            android:textSize="@dimen/textsize_34px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_orders_time"
+        style="@style/tv_Gray959595_Szie32"
+        android:paddingBottom="@dimen/x5"
+        android:paddingLeft="@dimen/x20"
+        android:paddingRight="@dimen/x20"
+        android:paddingTop="@dimen/x10"
+        android:text="材料下单时间"
+        android:textSize="@dimen/textsize_30px" />
+
+    <TextView
+        android:id="@+id/tv_pre_arrive_time"
+        style="@style/tv_Gray959595_Szie32"
+        android:paddingBottom="@dimen/x5"
+        android:paddingLeft="@dimen/x20"
+        android:paddingRight="@dimen/x20"
+        android:paddingTop="@dimen/x10"
+        android:text="@string/str_pre_time"
+        android:textSize="@dimen/textsize_30px" />
+
+    <TextView
+        android:id="@+id/tv_pra_arrive_time"
+        style="@style/tv_Gray959595_Szie32"
+        android:paddingBottom="@dimen/x10"
+        android:paddingLeft="@dimen/x20"
+        android:paddingRight="@dimen/x20"
+        android:paddingTop="@dimen/x5"
+        android:text="@string/str_pra_time"
+        android:textSize="@dimen/textsize_30px" />
+
+    <View
+        style="@style/view_grayd1d1d1_divider"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/y5" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/x20">
+
+        <TextView
+            android:id="@+id/tv_listitem_schedule_status"
+            style="@style/tv_Gray959595_Szie32"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="已完成"
+            android:textSize="@dimen/textsize_34px" />
+
+        <TextView
+            android:id="@+id/tv_listitem_schedule_delay"
+            style="@style/tv_Gray959595_Szie32"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_toRightOf="@id/tv_listitem_schedule_status"
+            android:text=""
+            android:textColor="@color/red_c30d22"
+            android:textSize="@dimen/textsize_34px" />
+
+        <TextView
+            android:id="@+id/tv_listitem_schedule_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x60"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shape_text_red_stroke"
+            android:gravity="center"
+            android:minWidth="@dimen/x160"
+            android:text="@string/str_confirm_recive"
+            android:textColor="@color/red_e76170" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30"
+        android:background="@color/gray_f4f4f4" />
+
+</LinearLayout>

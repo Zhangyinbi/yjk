@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="Owner_grey_d2d2d2">#d2d2d2</color>
+    <color name="Owner_grey_f0f0f0">#f0f0f0</color>
+    <color name="Owner_grey_f1f1f1">#f1f1f1</color>
+    <color name="Owner_grey_959595">#959595</color>
+    <color name="Owner_grey_e5e5e5">#e5e5e5</color>
+    <color name="Owner_grey_707070">#707070</color>
+    <color name="Owner_white_ffffff">#ffffff</color>
+    <color name="Owner_red_c20e22">#c20e22</color>
+    <color name="Owner_red_c30d23">#c30d23</color>
+    <color name="Owner_red_e76270">#e76270</color>
+    <color name="Owner_red_d5302f">#d5302f</color>
+    <color name="Owner_red_fffc00">#fffc00</color>
+    <color name="Owner_red_ff0000">#ff0000</color>
+    <color name="Owner_red_ff4200">#ff4200</color>
+    <color name="Owner_black_000000">#000000</color>
+    <color name="Owner_yellow_f39700">#f39700</color>
+    <color name="Owner_blue_22ac38">#22ac38</color>
+    <color name="text_959595">#959595</color>
+    <color name="text_000000">#000000</color>
+    <color name="text_f39700">#f39700</color>
+    <color name="text_d3d3d3">#d3d3d3</color>
+    <color name="gray_bg_eeeeee">#eeeeee</color>
+    <color name="white_ffffff">#ffffff</color>
+    <color name="black_text_313131">#313131</color>
+    <color name="gray_707070">#707070</color>
+    <color name="red_f87b89">#f87b89</color>
+    <color name="text_a70c1e">#a70c1e</color>
+
+
+</resources>

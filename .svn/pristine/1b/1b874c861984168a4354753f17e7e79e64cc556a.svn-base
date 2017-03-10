@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF1EC"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_exit"
+        android:textColor="#df00"
+        android:textSize="16sp"
+        android:background="@drawable/selector_bg_set"
+        android:text="确定"/>
+    <Button
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cancel"
+        android:textSize="16sp"
+        android:background="@drawable/selector_bg_set"
+        android:textColor="@drawable/selector_text_color_white_black"
+        android:text="取消"/>
+
+</LinearLayout>

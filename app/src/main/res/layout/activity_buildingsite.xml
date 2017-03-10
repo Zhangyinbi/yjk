@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_build_site_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y120"
+        android:background="@color/background_dcdcdc"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_build_site_search"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y80"
+            android:layout_margin="@dimen/y20"
+            android:layout_weight="1"
+            android:background="@drawable/shape_search"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <LinearLayout
+            android:id="@+id/ll_build_site_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/x24"
+                android:text="取消"
+                android:textColor="@color/red"
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_build_site_search_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y120"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="22dp"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:textColor="@color/text_959595"
+            android:textSize="@dimen/textsize_35px" />
+    </LinearLayout>
+
+    <com.hbw.library.view.TraditionListView
+        android:id="@+id/listView_builder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_build_site_search"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:listSelector="#00000000"
+        tools:listitem="@layout/building_site_item"></com.hbw.library.view.TraditionListView>
+
+</RelativeLayout>

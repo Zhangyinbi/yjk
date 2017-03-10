@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/view_pop_material_type_translucence_layer"
+        android:alpha="0.6"
+        android:background="#555"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_exit"
+        android:textColor="#df00"
+        android:textSize="16sp"
+        android:background="@drawable/selector_bg_set"
+        android:text="确定"/>
+    <Button
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cancel"
+        android:textSize="16sp"
+        android:background="@drawable/selector_bg_set"
+        android:textColor="@drawable/selector_text_color_white_black"
+        android:text="取消"/>
+    </LinearLayout>
+
+</RelativeLayout>

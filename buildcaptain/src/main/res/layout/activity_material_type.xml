@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/material_type_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y120"
+        android:background="@color/background_dcdcdc"
+        android:orientation="horizontal">
+
+        <EditText
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:id="@+id/material_type_edittext"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y80"
+            android:layout_margin="@dimen/y20"
+            android:layout_weight="1"
+            android:background="@drawable/shape_search"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/material_type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/x24"
+                android:text="取消"
+                android:textColor="@color/red"
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/material_type_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y120"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/search" />
+
+        <TextView
+            android:textColor="@color/text_959595"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:textSize="@dimen/textsize_35px" />
+    </LinearLayout>
+
+    <ListView
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/material_type_lsitview"
+        android:layout_below="@id/material_type_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF1EC"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/set_changpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_bg_set"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView_update_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="修改密码"
+                android:textColor="@drawable/selector_text_color_white_black"
+                android:textSize="@dimen/textsize_18sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x10"
+                android:src="@mipmap/arrow_close" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_marginRight="@dimen/x24"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/line_d2d2d2"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:id="@+id/deductions_record"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_bg_set"
+            android:gravity="center"
+            android:onClick="clickButton"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="扣款记录"
+                android:textColor="@drawable/selector_text_color_white_black"
+                android:textSize="@dimen/textsize_18sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x10"
+                android:src="@mipmap/arrow_close" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/y30"
+            android:id="@+id/set_exit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_bg_set"
+            android:gravity="center"
+            android:onClick="clickButton"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="退出登录"
+                android:textColor="@drawable/selector_text_color_white_black"
+                android:textSize="@dimen/textsize_18sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

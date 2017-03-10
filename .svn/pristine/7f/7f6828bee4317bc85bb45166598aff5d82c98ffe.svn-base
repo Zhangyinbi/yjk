@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- 所有字体的大小 -->
+    <dimen name="textsize_10sp">10sp</dimen>
+    <dimen name="textsize_11sp">11sp</dimen>
+    <dimen name="textsize_12sp">12sp</dimen>
+    <dimen name="textsize_13sp">13sp</dimen>
+    <dimen name="textsize_14sp">14sp</dimen>
+    <dimen name="textsize_15sp">15sp</dimen>
+    <dimen name="textsize_16sp">16sp</dimen>
+    <dimen name="textsize_17sp">17sp</dimen>
+    <dimen name="textsize_18sp">18sp</dimen>
+    <dimen name="textsize_19sp">19sp</dimen>
+    <dimen name="textsize_20sp">20sp</dimen>
+
+    <!-- 使用标准720p的屏幕 ppi为320 -->
+    <dimen name="textsize_20px">10sp</dimen>
+    <dimen name="textsize_21px">10.5sp</dimen>
+    <dimen name="textsize_22px">11sp</dimen>
+    <dimen name="textsize_23px">11.5sp</dimen>
+    <dimen name="textsize_24px">12sp</dimen>
+    <dimen name="textsize_25px">12.5sp</dimen>
+    <dimen name="textsize_26px">13sp</dimen>
+    <dimen name="textsize_27px">13.5sp</dimen>
+    <dimen name="textsize_28px">14sp</dimen>
+    <dimen name="textsize_29px">14.5sp</dimen>
+    <dimen name="textsize_30px">15sp</dimen>
+    <dimen name="textsize_31px">15.5sp</dimen>
+    <dimen name="textsize_32px">16sp</dimen>
+    <dimen name="textsize_33px">16.6sp</dimen>
+    <dimen name="textsize_34px">17sp</dimen>
+    <dimen name="textsize_35px">17.5sp</dimen>
+    <dimen name="textsize_36px">18sp</dimen>
+    <dimen name="textsize_37px">18.5sp</dimen>
+    <dimen name="textsize_38px">19sp</dimen>
+    <dimen name="textsize_39px">19.5sp</dimen>
+    <dimen name="textsize_40px">20sp</dimen>
+    <dimen name="textsize_50px">25sp</dimen>
+    <dimen name="textsize_60px">30sp</dimen>
+
+</resources>

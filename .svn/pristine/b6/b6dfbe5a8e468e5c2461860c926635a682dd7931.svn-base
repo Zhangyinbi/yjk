@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Owner_grey_f1f1f1"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/x120"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="@dimen/x5"
+            android:layout_height="@dimen/y60"
+            android:background="@color/Owner_grey_d2d2d2" />
+
+        <ImageView
+            android:id="@+id/child_image_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/x15"
+            android:layout_marginTop="@dimen/x15" />
+
+        <View
+            android:layout_width="@dimen/x5"
+            android:layout_height="match_parent"
+            android:background="@color/Owner_grey_d2d2d2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/child_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/child_date"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="11dp"
+            android:gravity="center"
+            android:textColor="@color/Owner_white_ffffff"
+            android:textSize="@dimen/textsize_30px" />
+
+        <com.hbw.library.view.MeasureListView
+            android:id="@+id/child_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@android:color/transparent"
+            android:divider="@null"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

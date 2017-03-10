@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">MiOwner</string>
+
+
+    <string name="str_construction_progress">施工进度</string>
+    <string name="str_event_remind">事项提醒</string>
+    <string name="str_site_monitoring">现场监控</string>
+    <string name="str_me">我的</string>
+
+    <string name="str_tel_num">186****1807</string>
+    <string name="str_my_supervisor">我的监理</string>
+    <string name="str_my_pay_record">付款记录</string>
+    <string name="str_about_we">关于我们</string>
+
+    <string name="str_explanation">交底</string>
+    <string name="str_shuidian">水电</string>
+    <string name="str_nimu">泥木</string>
+    <string name="str_jungong">竣工</string>
+    <string name="str_zengbu">增补</string>
+
+
+    <!--付款记录-->
+    <string name="str_pra_pay_money">实付金额 : </string>
+    <string name="str_pact_money">合同金额 : </string>
+    <string name="str_add_money">增项金额 : </string>
+    <string name="str_pact_deadline_money">合同期款</string>
+    <string name="str_main_material_detail">主材明细</string>
+    <string name="str_add_detail">增项明细</string>
+    <string name="str_pay_project">款项</string>
+    <string name="str_scale">比例</string>
+    <string name="str_status">状态</string>
+    <string name="str_main_material_name">主材名称</string>
+    <string name="str_brand_norms">品牌规格</string>
+    <string name="str_count">数量</string>
+    <string name="str_total_money">总价</string>
+    <string name="payment_actually_paid_money">期款实付金额 : </string>
+    <string name="add_prepay_actually_paid_money">增加项预付金额 : </string>
+    <string name="refund_actually_paid_money">退款 : </string>
+    <string name="refund_money">退款 : </string>
+
+    <!-- 关于我们 -->
+    <string name="about_str_content_1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;小米装正式成立于2014年10月1日，是一家专业室内装饰公司（上海米晨装饰设计工程有限公司）。秉承小米的特色，以极致的性价比来赢得客户，同等材料和工艺下，将提供行业极端的服务，也做到了行业最极端的价格！另外，小米装首创标准报价模式，试图打破装修行业“水很深”的现状，公开详细报价单，明码标价，让装修从此变得透明！
+</string>
+    <string name="about_str_title_1">小米装产品</string>
+    <string name="about_str_content_2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;小米装现有4大产品：半包经典套餐、标配经典主材包、高配品质主材包、经典设计包。</string>
+    <string name="about_str_title_2">小米装线下展厅</string>
+    <string name="about_str_content_3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;小米装拥有业内第一家装修线下展厅，所有的施工工艺和材料均可在展厅看到。业主可以随时到展厅参观，如装修后有监理指出施工问题，或者有材料问题，小米装都将无条件拆了重新做！
+</string>
+    <string name="about_str_icp">沪ICP备14053491号-1</string>
+    <string name="about_str_copyright">2014&#8211;2015 xiaomizhuang.com , All Rights Reserved</string>
+    <string name="site_management">工地管理</string>
+    <string name="acceptance">节点验收</string>
+    <string name="checks">项目经理巡查</string>
+    <string name="daily">施工队长日志</string>
+    <string name="problem_and_evaluate">问题与评价</string>
+    <string name="orders">我的订单</string>
+    <string name="site_supervision">现场监管</string>
+    <string name="receiving_reprot">验收单</string>
+
+    <string name="order_detail_material_name_tv">材&#160;&#160;料&#160;&#160;名：</string>
+    <string name="order_detail_brand_tv">品&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;牌：</string>
+    <string name="order_detail_type_tv">类&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;型：</string>
+    <string name="order_detail_norms_tv">规&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;格：</string>
+    <string name="order_detail_unit_tv">单&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;位：</string>
+    <string name="order_detail_count_tv">数&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;量：</string>
+    <string name="order_detail_remark_tv">备&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;注：</string>
+    <string name="order_detail_delivery_time_tv">送货时间：</string>
+    <string name="order_detail_address_tv">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址：</string>
+    <string name="order_detail_designer_tv">设&#160;&#160;计&#160;&#160;师：</string>
+    <string name="order_detail_phone_tv">电&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;话：</string>
+    <string name="order_detail_construct_captain_tv">施工队长：</string>
+    <string name="order_detail_project_manager_tv">项目经理：</string>
+    <string name="tips_of_cognate_mobile">提示:此处关联的手机号,在注册后可查看同一工地信息</string>
+
+</resources>

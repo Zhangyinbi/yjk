@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="12dp"
+        android:singleLine="false"
+        android:text="去工地验收"
+        android:textColor="@color/text_000000"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="12dp"
+        android:text="全文"
+        android:textColor="@color/text_a70c1e"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_amerce_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="12dp"
+        android:text="罚款金额 : ¥200元"
+        android:textColor="@color/text_959595"
+        android:textSize="14sp"/>
+
+    <com.hbw.library.view.MyGridView
+        android:id="@+id/gv_imgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:horizontalSpacing="2dp"
+        android:numColumns="3"
+        android:paddingLeft="12dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/Owner_grey_d2d2d2"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/tv_add_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="上传时间 : "
+        android:textColor="@color/text_959595"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/Owner_grey_f0f0f0"/>
+
+</LinearLayout>

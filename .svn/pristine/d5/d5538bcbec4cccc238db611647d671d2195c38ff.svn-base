@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hbw="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/projectschedulingbg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <FrameLayout
+            android:id="@+id/project_schedul_fl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <com.example.yangbang.miowner.view.ColorfulRingProgressView
+                android:id="@+id/project_schedul_crpv"
+                android:layout_width="@dimen/x590"
+                android:layout_height="@dimen/x590"
+                android:layout_gravity="center"
+                android:interpolator="@android:anim/decelerate_interpolator"
+                hbw:bgColor="@color/Owner_red_d5302f"
+                hbw:fgColorEnd="@color/Owner_red_fffc00"
+                hbw:fgColorStart="@color/Owner_red_ff4200"
+                hbw:percent="0"
+                hbw:startAngle="0"
+                hbw:mTitleText="0"
+                hbw:mTitleTextColor="@color/Owner_white_ffffff"
+                hbw:mTitleTextSize="70sp"
+                hbw:strokeWidth="15dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/x10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100"
+                        android:alpha="0"
+                        android:textColor="@color/Owner_white_ffffff"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%"
+                        android:textColor="@color/Owner_white_ffffff"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="工程完成度"
+                    android:textColor="@color/Owner_white_ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/project_scheduling_red_list"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/project_schedul_days"
+                android:layout_marginLeft="@dimen/x24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Owner_white_ffffff"
+                android:textSize="@dimen/textsize_32px" />
+
+            <TextView
+                android:id="@+id/project_schedul_projectphase"
+                android:layout_marginRight="@dimen/x24"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Owner_white_ffffff"
+                android:textSize="@dimen/textsize_32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/project_scheduling_white_bg_"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x24"
+                    android:gravity="left|center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/start_work" />
+
+                    <TextView
+                        android:id="@+id/project_schedul_start_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Owner_black_000000"
+                        android:textSize="@dimen/textsize_32px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/x12"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/x24"
+                    android:gravity="left|center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/completed_work" />
+
+                    <TextView
+                        android:id="@+id/project_schedul_end_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Owner_black_000000"
+                        android:textSize="@dimen/textsize_32px" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/project_schedul_button"
+                    android:layout_marginLeft="@dimen/x24"
+                    android:layout_marginRight="@dimen/x24"
+                    android:background="@drawable/owner_shape_project_schedul_button"
+                    android:textSize="@dimen/textsize_36px"
+                    android:text="施工进度"
+                    android:textColor="@color/Owner_grey_707070"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y100" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

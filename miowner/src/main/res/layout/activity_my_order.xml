@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1"
+    android:orientation="vertical">
+
+    <!--<HorizontalScrollView
+        android:id="@+id/hsv_my_order_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ll_my_order_tab_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <include layout="@layout/item_my_order_tab" />
+
+            <include layout="@layout/item_my_order_tab" />
+
+            <include layout="@layout/item_my_order_tab" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>-->
+
+    <com.hbw.library.view.TabLayout
+        android:id="@+id/tl_my_order_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" />
+
+    <View style="@style/view_grayd1d1d1_divider" />
+
+    <com.hbw.library.view.TraditionListView
+        android:id="@+id/lv_my_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none"></com.hbw.library.view.TraditionListView>
+
+</LinearLayout>

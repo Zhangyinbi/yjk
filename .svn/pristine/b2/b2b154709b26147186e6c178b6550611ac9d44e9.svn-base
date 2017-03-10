@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/y30"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:layout_marginTop="@dimen/y30"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y1"
+            android:layout_weight="1"
+            android:background="@color/Owner_grey_d2d2d2" />
+
+        <TextView
+            android:id="@+id/tv_event_remind_create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11月20日"
+            android:textColor="@color/Owner_grey_959595"
+            android:textSize="@dimen/textsize_28px" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y1"
+            android:layout_weight="1"
+            android:background="@color/Owner_grey_d2d2d2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x24"
+        android:layout_marginRight="@dimen/x24"
+        android:background="@drawable/shape_event_remind"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="@dimen/x24"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_event_remind_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="交底阶段验收提醒"
+                android:textColor="@color/Owner_black_000000"
+                android:textSize="@dimen/textsize_36px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_event_remind_state"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/x24"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="已完成"
+                android:textColor="@color/Owner_grey_959595"
+                android:textSize="@dimen/textsize_28px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/event_remind_text_one_LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x24"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_event_remind_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预计验收时间:2015.11.21 周六"
+                android:textColor="@color/Owner_black_000000"
+                android:textSize="@dimen/textsize_32px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/event_remind_text_description_LinearLayout"
+            android:layout_marginTop="@dimen/y60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_marginBottom="@dimen/y24"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_event_remind_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请妥善安排您的时间并于验收前与项目经理确认实际验收时间。"
+                android:textColor="@color/Owner_grey_707070"
+                android:textSize="@dimen/textsize_30px" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

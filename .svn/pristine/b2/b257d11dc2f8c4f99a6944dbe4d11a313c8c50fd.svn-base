@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="@string/yanshoudan"
+        android:textColor="@color/text_959595"
+        android:textSize="@dimen/textsize_34px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/gray_7d7d7d"/>
+
+
+    <LinearLayout
+        android:id="@+id/item_check_bill_linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_check_bill_add"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/item_check_bill_add"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/dimen_2"
+                android:layout_marginTop="@dimen/dimen_2"
+                android:scaleType="fitXY"
+                android:src="@drawable/addphoto"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/gray_7d7d7d"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y80"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="最新上传："
+            android:textColor="#000000"
+            android:textSize="@dimen/textsize_34px"/>
+
+        <TextView
+            android:id="@+id/item_check_bill_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y80"
+            android:gravity="center_vertical"
+            android:text="2016-04-28 15:20:26"
+            android:textColor="#000000"
+            android:textSize="@dimen/textsize_34px"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30"
+        android:background="@color/background_f0f0f0"/>
+
+</LinearLayout>

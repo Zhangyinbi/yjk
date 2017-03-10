@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MiProjectManager.iml" filepath="$PROJECT_DIR$/MiProjectManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoMultiSelect/PhotoMultiSelect.iml" filepath="$PROJECT_DIR$/PhotoMultiSelect/PhotoMultiSelect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildcaptain/buildcaptain.iml" filepath="$PROJECT_DIR$/buildcaptain/buildcaptain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miowner/miowner.iml" filepath="$PROJECT_DIR$/miowner/miowner.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_order_detail_footer_total"
+        style="@style/tv_Gray959595_Szie32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="@dimen/x15"
+        android:text="共2种材料 合计：240.00元(不含运费)"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize_30px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y10"
+        android:background="@color/gray_bg_eeeeee" />
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="流水号：" />
+
+        <TextView
+            android:id="@+id/activity_order_place_num_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="下单时间：" />
+
+        <TextView
+            android:id="@+id/activity_order_place_time_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="预计到货时间：" />
+
+        <TextView
+            android:id="@+id/activity_order_estimate_time_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="发货时间：" />
+
+        <TextView
+            android:id="@+id/activity_order_send_time_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="收货时间：" />
+
+        <TextView
+            android:id="@+id/activity_order_receipt_time_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Owner_grey_f0f0f0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/owner_shape_register"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/changepassword_phone_et"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y100"
+            android:layout_margin="@dimen/x2"
+            android:layout_weight="1"
+            android:background="@color/Owner_white_ffffff"
+            android:gravity="center_vertical"
+            android:hint="请输入原始密码"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:textColorHint="@color/Owner_grey_d2d2d2"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_32px" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/changepassword_img_LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/changepassword_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/x18"
+                android:layout_marginRight="@dimen/x18"
+                android:background="@mipmap/gouxuanblue" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/changepassword_old_alert"
+        android:textSize="@dimen/textsize_26px"
+        android:layout_marginTop="@dimen/y2"
+        android:layout_marginLeft="@dimen/x24"
+        android:text="原始密码错误"
+        android:textColor="@color/Owner_red_ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/y30"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y209"
+        android:background="@drawable/owner_shape_register_password"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="@dimen/x5"
+            android:textColorHint="@color/Owner_grey_d2d2d2"
+            android:id="@+id/changepassword_passowrd_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y100"
+            android:background="@color/Owner_white_ffffff"
+            android:gravity="center_vertical"
+            android:hint="请输入新密码"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_32px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/Owner_grey_d2d2d2" />
+
+        <EditText
+            android:textColorHint="@color/Owner_grey_d2d2d2"
+            android:id="@+id/changepassword_redo_passowrd_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y100"
+            android:background="@color/Owner_white_ffffff"
+            android:gravity="center_vertical"
+            android:hint="请再次输入新密码"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:textColor="@color/Owner_black_000000"
+            android:textSize="@dimen/textsize_32px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/changepassword_new_alert"
+        android:textSize="@dimen/textsize_26px"
+        android:layout_marginTop="@dimen/y2"
+        android:layout_marginLeft="@dimen/x24"
+        android:text="两次密码不一致"
+        android:textColor="@color/Owner_red_ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_order_detail_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_f87b89"
+        android:padding="@dimen/x10"
+        android:text="订单状态：待接单"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_26px" />
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="@string/order_detail_construct_captain_tv" />
+
+        <TextView
+            android:id="@+id/activity_order_construct_captain_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="@string/order_detail_phone_tv" />
+
+        <TextView
+            android:id="@+id/activity_order_construct_captain_phone_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="@string/order_detail_address_tv" />
+
+        <TextView
+            android:id="@+id/activity_order_construct_captain_address_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y10"
+        android:background="@color/gray_bg_eeeeee" />
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="@string/order_detail_designer_tv" />
+
+        <TextView
+            android:id="@+id/activity_order_designer_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="@string/order_detail_phone_tv" />
+
+        <TextView
+            android:id="@+id/activity_order_designer_phone_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="@string/order_detail_project_manager_tv" />
+
+        <TextView
+            android:id="@+id/activity_order_project_manager_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearlayout_margin_h">
+
+        <TextView
+            style="@style/textview_gray_959595"
+            android:text="@string/order_detail_phone_tv" />
+
+        <TextView
+            android:id="@+id/activity_order_project_manager_phone_tv"
+            style="@style/textview_black_313131" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y10"
+        android:background="@color/gray_bg_eeeeee" />
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/x20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_listitem_deduct_record_data"
+                style="@style/tv_Gray959595_Szie32"
+                android:text="2015年-11月-21日"
+                android:textSize="@dimen/textsize_34px" />
+
+            <TextView
+                android:id="@+id/tv_listitem_deduct_record_section"
+                style="@style/tv_Rede76170_Szie34"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="水电阶段" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <LinearLayout
+            android:id="@+id/ll_listitem_deduct_record_owner_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y20"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/tv_Black000000_Szie32"
+                android:text="业主名称："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_listitem_deduct_record_owner_name"
+                style="@style/tv_Black000000_Szie32"
+                android:text="张三"
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_listitem_deduct_record_build_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y20"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/tv_Black000000_Szie32"
+                android:text="工地地址："
+                android:textSize="@dimen/textsize_36px" />
+
+            <TextView
+                android:id="@+id/tv_listitem_deduct_record_build_address"
+                style="@style/tv_Black000000_Szie32"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/y5"
+                android:text="这是工地地址，这是工地地址，这是工地地址"
+                android:textSize="@dimen/textsize_36px" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_listitem_deduct_record_desc"
+            style="@style/tv_Black000000_Szie32"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/y5"
+            android:text="今日水电验收，接下来业主铺设地暖，结束以后，瓷砖铺设"
+            android:textSize="@dimen/textsize_36px" />
+
+        <LinearLayout
+            android:id="@+id/ll_listitem_deduct_record_imgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y20"
+            android:orientation="horizontal">
+
+            <!-- <ImageView
+                 android:layout_width="@dimen/y256"
+                 android:layout_height="@dimen/x200"
+                 android:layout_weight="1"
+                 android:src="@mipmap/ic_launcher" />
+
+             <ImageView
+                 android:layout_width="@dimen/y256"
+                 android:layout_height="@dimen/x200"
+                 android:layout_weight="1"
+                 android:src="@mipmap/ic_launcher" />
+
+             <ImageView
+                 android:layout_width="@dimen/y256"
+                 android:layout_height="@dimen/x200"
+                 android:layout_weight="1"
+                 android:src="@mipmap/ic_launcher" />-->
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_Black000000_Szie32"
+                android:text="罚款金额："
+                android:textSize="@dimen/textsize_34px" />
+
+            <TextView
+                android:id="@+id/tv_listitem_deduct_record_money"
+                style="@style/tv_Black000000_Szie32"
+                android:text="200元"
+                android:textColor="@color/text_f39700"
+                android:textSize="@dimen/textsize_34px" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30"
+        android:background="@color/gray_f1f1f1" />
+
+
+</LinearLayout>

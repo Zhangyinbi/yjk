@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f1f1f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_me_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/x24">
+
+        <ImageView
+            android:id="@+id/imgv_me_avatar"
+            android:layout_width="@dimen/x140"
+            android:layout_height="@dimen/x140"
+            android:src="@mipmap/ic_default_avatar" />
+
+        <TextView
+            android:id="@+id/tv_me_tel"
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_marginLeft="@dimen/x45"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/str_tel_num" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_schedules"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:layout_marginTop="@dimen/y30"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/x24">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/schedules" />
+
+        <TextView
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_marginLeft="@dimen/x22"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="排期总览"
+            android:textSize="@dimen/textsize_32px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_schedules_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginLeft="@dimen/y22"
+            android:layout_marginRight="@dimen/y22" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_site_supervision"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/x24">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/regulate" />
+
+        <TextView
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_marginLeft="@dimen/x22"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/site_supervision"
+            android:textSize="@dimen/textsize_32px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_site_supervision_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginLeft="@dimen/y22"
+            android:layout_marginRight="@dimen/y22" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_problem_and_evaluate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/x24">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/question" />
+
+        <TextView
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_marginLeft="@dimen/x22"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/problem_and_evaluate"
+            android:textSize="@dimen/textsize_32px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_problem_and_evaluate_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginLeft="@dimen/y22"
+            android:layout_marginRight="@dimen/y22" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_me_my_pay_record"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/x24">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pay" />
+
+        <TextView
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_marginLeft="@dimen/x22"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/str_my_pay_record"
+            android:textSize="@dimen/textsize_32px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_me_my_pay_record_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <View
+            style="@style/view_grayd1d1d1_divider"
+            android:layout_marginLeft="@dimen/y22"
+            android:layout_marginRight="@dimen/y22" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_my_orders"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/x24">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/order" />
+
+        <TextView
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_marginLeft="@dimen/x22"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/orders"
+            android:textSize="@dimen/textsize_32px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_me_about_we"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:layout_marginTop="@dimen/y30"
+        android:background="@drawable/selector_bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/x24">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/regarding" />
+
+        <TextView
+            style="@style/Fm_ffffff_36_Tv"
+            android:layout_marginLeft="@dimen/x22"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/str_about_we"
+            android:textSize="@dimen/textsize_32px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+
+    </LinearLayout>
+
+</LinearLayout>
